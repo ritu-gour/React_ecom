@@ -1,0 +1,68 @@
+.bg900{
+    background-color: #084442;
+margin: 90px 0px 90px 0px !important;
+padding: 40px 40px 40px 40px;
+}
+
+.dem1{
+    font-size: 30px;
+    color: white;
+    margin: 30px 0px 20px 0px;
+}
+.vous1{
+   font-size: 17px ;
+   color: white; 
+   margin: 0px 0px 50px 0px !important;
+}
+.vos1{
+    font-size: 20px ;
+    color: white;  
+    word-spacing: 7px;
+    letter-spacing: normal; 
+}
+.btn504{
+    color: #FFF;
+
+   
+   font-size: 14px;
+   
+    font-weight: 500;
+    padding: 10px 30px 10px 30px;
+    align-items: center;
+  border: none;
+  color: black;
+  border-radius: 0px;
+    background: #FFC309;
+   margin-top:30px ;
+width: 100%;
+
+}
+.btn504:hover{
+    color:  #000000;
+
+   
+   font-size: 14px;
+   
+    font-weight: 500;
+    padding: 10px 30px 10px 30px;
+    align-items: center;
+  border: none;
+  color: black;
+  border-radius: 0px;
+    background: #B9E6C9;
+   margin-top:30px ;
+width: 100%;
+
+}
+.form-control {
+   
+    border-radius:0px;
+    color: #838383db !important;
+}
+.form-select {
+  
+    color: #3f3f3fdb;
+}
+/* input{
+    color: #838383db;
+} */

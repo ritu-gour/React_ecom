@@ -1,0 +1,100 @@
+.btn51{
+    
+    color: #FFF;
+
+   
+   font-size: 16px;
+   
+    font-weight: 500;
+    padding: 12px 10px 12px 10px;
+    align-items: center;
+  border: none;
+  border-radius: 0px;
+    background: #084442;
+   margin-top:35px ;
+width: 100%;
+
+
+}
+.btn51:hover{
+    
+    color: #FFF;
+    margin-top:35px ;
+   
+   font-size: 16px;
+   
+    font-weight: 500;
+    padding: 12px 10px 12px 10px;
+    align-items: center;
+  border: none;
+  border-radius: 0px;
+    background: #FFC309;
+}
+
+.btn53{
+    
+ 
+   
+   font-size: 16px;
+   
+    font-weight: 500;
+    padding: 12px 10px 12px 10px;
+    align-items: center;
+  border: 2px solid  #084442;
+  color:   #084442;
+  border-radius: 0px;
+    background: transparent;
+   margin-top:35px ;
+width: 100%;
+
+
+}
+.btn53:hover{
+    
+    
+    margin-top:35px ;
+   
+   font-size: 16px;
+   color:  #084442;
+    font-weight: 500;
+    padding: 12px 10px 12px 10px;
+    align-items: center;
+  border: 2px solid #FFC309;
+  border-radius: 0px;
+    background: #FFC309;
+}
+.google2{
+    font-size: 20px;
+}
+.btn54{
+    
+    color: #FFF;
+
+   
+   font-size: 16px;
+   
+    font-weight: 500;
+    padding: 12px 10px 12px 10px;
+    align-items: center;
+  border: none;
+  border-radius: 0px;
+    background: #084442;
+   margin-top:35px ;
+width: 100%;
+
+
+}
+.btn54:hover{
+    
+    color: #084442;;
+    margin-top:35px ;
+   
+   font-size: 16px;
+   
+    font-weight: 500;
+    padding: 12px 10px 12px 10px;
+    align-items: center;
+  border: none;
+  border-radius: 0px;
+    background: #B9E6C9;
+}
