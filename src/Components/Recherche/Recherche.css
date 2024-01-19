@@ -1,0 +1,114 @@
+.overlay3{
+    background-color: rgba(0, 0, 0, 0.60);
+    height: 410px;
+ }
+ .showcase3 {
+     width: 100%;
+     height: 450px;
+     position: relative;
+     color: white;
+ 
+     text-align: center;
+     margin: -40px 0px 0px 0px;
+     padding: 40px 0px 50px 0px;
+   }
+   
+   .showcase3 img {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index:-1
+   }
+
+   .recherche{
+    margin: 130px 0px 0px 0px;
+   }
+   .recherchebg{
+    background-color: #084442;
+    margin: 90px 100px 0px 100px;
+    padding: 30px 50px 30px 50px;
+   }
+
+   .btn809{
+    border-radius: 0px ;
+    background-color:#FFC309; 
+    border: none;
+    color: #084442;
+    font-weight: 600;
+    font-size: 18px;
+   }
+   .btn809:hover{
+    border-radius: 0px ;
+    background-color:#B9E6C9 !important; 
+    border: none;
+    color: #084442;
+    font-weight: 600;
+    font-size: 18px;
+   }
+   .commen{
+    color: #084442;
+    font-size: 25px;
+    margin:0px 0px 0px 30px ;
+   }
+   .comment{
+    color: #084442;
+    font-size: 18px;
+    margin:0px 0px 0px 30px ;
+   }
+
+   .marg97{
+    margin: 100px 150px 0px 150px;
+    padding: 40px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   }
+   .form-select {
+    color: #3f3f3fdb;
+    width: 250px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+}
+.form87{
+    margin-right: 350px;
+}
+.form-control {
+    border-radius: 0px;
+    color: #838383db !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+}
+.rechercher4{
+    background-color: #084442;
+    color: white;
+    border-radius: 0px;
+}
+.rechercher4:hover{
+    background-color: #FFC309; 
+    color: white;
+    border-radius: 0px;
+}
+.avec{
+    font-size: 30px ;
+    color: white;
+    margin: 0px 0px 40px 0px;
+}
+.local{
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px 0px 15px 0px;
+    color: white;
+}
+.avec1{
+    margin: 0px 0px 0px 50px;
+}
+.local1{
+    font-size: 26px;
+    padding: 0px;
+    margin: 0px 0px 15px 0px;
+    color: white; 
+}
+.avecsection{
+    padding: 80px 0px 80px 0px;
+    margin: 100px 0px 0px 0px;
+}

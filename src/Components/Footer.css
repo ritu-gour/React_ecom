@@ -2,7 +2,7 @@ ul {
     margin: 0px;
     padding: 0px;
 }
-.formula{
+.formula4{
     background: #FFC309;
     font-size: 17px;
     color: black;
@@ -10,8 +10,8 @@ ul {
     padding: 10px 20px 10px 20px;
     border-radius: 0px;
 }
-.formula:hover{
-    background: #B9E6C9;
+.formula4:hover{
+    background: #B9E6C9 !important;
     font-size: 17px;
     text-decoration: none !important;
     padding: 10px 20px 10px 20px;
@@ -292,4 +292,7 @@ button.btn8.btn.btn-primary:hover {
 
   padding: 5px;
   border-radius: 10px;
+}
+.btn-primary{
+  background-color: transparent;
 }

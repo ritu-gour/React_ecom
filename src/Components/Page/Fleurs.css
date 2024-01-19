@@ -1,0 +1,157 @@
+.overlay3{
+    background-color: rgba(0, 0, 0, 0.60);
+    height: 410px;
+ }
+ .showcase3 {
+     width: 100%;
+     height: 450px;
+     position: relative;
+     color: white;
+ 
+     text-align: center;
+     margin: -40px 0px 0px 0px;
+     padding: 40px 0px 50px 0px;
+   }
+   
+   .showcase3 img {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index:-1
+   }
+   .recherche{
+    margin: 130px 0px 0px 0px;
+   }
+   .averyy{
+    width:10% !important;
+    border-radius: 100%;
+    height: 32% !important;
+    padding: 30px;
+    float: right !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+    margin: 165px 0px 0px 480px;
+   }
+   .fleursimg{
+    width: 640px;
+    padding: 60px 0px 0px 0px;
+   }
+   .Bon{
+    color: #084442;
+
+/* body2/regular */
+font-family: "Work Sans";
+font-size: 21.3px;
+font-style: normal;
+font-weight: 400;
+line-height: 57.6px; /* 270.423% */
+   }
+   .jusq{
+    color: #084442;
+
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+   }
+   .jusq1{
+    color: #FFC309;
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+   }
+   .btnprodit{
+    background-color: #B9E6C9;
+    border: none;
+    color:#084442 ;
+    border-radius: 0px;
+    margin: 25px 0px 0px 0px;
+
+   }
+   .btnprodit:hover{
+    background-color: #FFC309;
+    border: none;
+    color:#084442 ;
+    border-radius: 0px;
+    margin: 25px 0px 0px 0px;
+
+   }
+   .bonsection{
+    margin: 120px 0px 0px 0px;
+   }
+   .category4,.categorycardfle{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 0px;
+    border: none;
+   }
+   .margfleur{
+    margin: 90px 200px 0px 200px;
+   }
+   .categoryimgfleur{
+    height: 360px;
+   }
+
+   .fareg{
+    font-size: 60px;
+    color: #084442;
+    margin-top: -20px;
+   }
+
+.pres78{
+  color: #084442;
+
+font-family: "Work Sans";
+font-size: 37.9px;
+font-style: normal;
+font-weight: 600;
+line-height: 47.6px; /* 125.594% */
+text-transform: uppercase;
+}
+
+select.slect2.form-select {
+  width: 100px;
+  color: #3f3f3fdb;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: none;
+
+}
+.form34{
+  margin: 40px 0px 0px 0px;
+}
+.Productimg{
+  height: 300px;
+}
+.produitp{
+  color: #323334;
+
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+
+line-height: normal;
+margin: 0px 0px -15px 0px !important;
+}
+.bsdot{
+  margin-left: -15px;
+ 
+}
+.bsdot1{
+  margin-left: -30px;
+}
+
+
+
+
+
+
+   

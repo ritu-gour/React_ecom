@@ -115,7 +115,7 @@ const Footer = () => {
                                     <ul>
                                         <li className='my-2'><a href="#">+ 3360368099</a></li>
                                         <li><a href="#">nouscontacter@e-maathena.com</a></li>
-                                        <li> <Button variant=" bv1" className="formula my-3">
+                                        <li> <Button variant=" bv1" className="formula4 my-3">
                                             <a href='./contact' target="_blank" style={{color:"black"}}>Formulaire de contact  →</a>
                                         </Button></li>
 

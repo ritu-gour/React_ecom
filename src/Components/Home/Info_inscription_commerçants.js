@@ -325,9 +325,7 @@ const Info_inscription_commerçants = () => {
                                 <a href='./contact' target="_blank" style={{ color: "black", fontSize: "14px", fontWeight: "700", color: "#084442" }}>VENDRE SUR MAATHENA</a>
                             </Button>
 
-                            {/* <Button variant=" bv1 my-3" className="bv1">
-            <a href='./contact' target="_blank" style={{ color: "white" }}>S’INSCRIRE SUR NOTRE MARKETPLACE</a>
-        </Button> */}
+                            
 
                         </Col>
 
