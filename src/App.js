@@ -11,6 +11,8 @@ import Login from './Components/InscriptionComme/Login'
 import Welcome from './Components/Welcome/Welcome';
 import Recherche from './Components/Recherche/Recherche';
 import Fleurs from './Components/Page/Fleurs';
+import Carte from './Components/Page/Carte';
+import Monpanier from './Components/Page/Monpanier';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
         <Route path='/Welcome' element={<Welcome />} />
         <Route path='/Recherche' element={<Recherche />}/> 
         <Route path='/fleurs' element={<Fleurs />}/> 
+        <Route path='/carte' element={<Carte />}/>
+        <Route path='/Monpanier' element={<Monpanier />}/>
       </Routes>
       {/* <Footer /> */}
 

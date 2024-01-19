@@ -25,16 +25,16 @@
     margin: 130px 0px 0px 0px;
    }
    .averyy{
-    width:10% !important;
+    width:9% !important;
     border-radius: 100%;
-    height: 32% !important;
-    padding: 30px;
+    height: 27% !important;
+    padding: 20px;
     float: right !important;
     margin-left: auto;
     margin-right: auto;
     display: block;
     
-    margin: 165px 0px 0px 480px;
+    margin: 188px 0px 0px 422px;
    }
    .fleursimg{
     width: 640px;
@@ -150,8 +150,73 @@ margin: 0px 0px -15px 0px !important;
 }
 
 
+.rideaux{
+  font-weight: 600;
+  margin: 0px;
+}
+.rideaux1{
+  font-weight: 400;
+  margin: 2px;
+}
+.rideaux7{
+  font-weight: 600;
+  margin-top: 30px;
+}
+.rid{
+  margin-top: 90px;
+}
 
 
 
+input[type="range"] {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none; 
+  /* creating a custom design */
+  width: 70%;
+  cursor: pointer;
+  outline: none;
+  /*  slider progress trick  */
+  overflow: hidden;
+  border-radius: 16px;
+}
 
-   
+/* Track: webkit browsers */
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 15px;
+  background: #ccc;
+  border-radius: 16px;
+}
+
+/* Track: Mozilla Firefox */
+input[type="range"]::-moz-range-track {
+  height: 15px;
+  background: #ccc;
+  border-radius: 16px;
+}
+
+/* Thumb: webkit */
+input[type="range"]::-webkit-slider-thumb {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none; 
+  /* creating a custom design */
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 2px solid #084442;
+  box-shadow: -407px 0 0 400px #084442;
+}
+
+
+/* Thumb: Firefox */
+input[type="range"]::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #084442;
+  box-shadow: -407px 0 0 400px #084442;
+}
+

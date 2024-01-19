@@ -16,7 +16,7 @@ const Head = () => {
                 <Nav className="me-auto menu" role="navigation" >
 
                     <NavLink to="/" className="logotype">
-                        <img src='./insigne-blanc.png' className='img10' />
+                        <img src='./logo_Maathena.png' className='img10' />
                     </NavLink>
 
                     <div className='overflow-container'>
@@ -28,6 +28,8 @@ const Head = () => {
                         <NavLink to="/MerchantRegistration" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Merchant Registration</NavLink>
                         <NavLink to="/RegistrAlreadyCust" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Already Customer</NavLink>
                         <NavLink to="/Login" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Login</NavLink>
+                        <NavLink to="/Carte" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Carte</NavLink>
+                        <NavLink to="/Monpanier" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Mon Panir</NavLink>
                     </div>
 
 

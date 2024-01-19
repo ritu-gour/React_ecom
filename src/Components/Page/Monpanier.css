@@ -1,0 +1,100 @@
+
+.overlay89 {
+    width: 100%;
+    height: 450px;
+    background-color:#0844424d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:-1
+  }
+  .recherchen{
+    margin: 150px 0px 0px 0px;
+    font-size: 50px;
+   }
+   .monpnanir{
+    width: 200px !important;
+   }
+   .pro1d{
+    color: #084442;
+
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+   }
+   select.monpanier1.form-select {
+    width: 90px;
+    box-shadow: rgb(100 100 111 / 0%) 0px 7px 29px 0px;
+    border: 1px solid black;
+}
+.monpaniers{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 40px 20px 20px 40px;
+    margin: 90px 0px 0px 0px;
+}
+.monspanir{
+    margin: 90px 0px 0px 0px;
+}
+input.form100.form-control {
+    width: 230px;
+   
+    
+}
+.cardwidth{
+    width: 420px !important;
+    padding: 20px;
+    background-color: #084442;
+    border: none;
+}
+.apply{
+    margin: 10px 0px 20px 0px;
+}
+.COMMANDER{
+    background-color:#FFC309 ;
+    width: 65%;
+    border: none;
+    border-radius: 0px;
+    padding: 8px 30px 8px 12px;
+    color: #084442;
+    margin: 20px 0px 0px 0px;
+}
+.sous{
+    margin-top: 30px;
+}
+
+.Monpanier78{
+    width:80%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px ;
+}
+.title1209{
+    font-size: 16px;
+    padding: 10px 10px 10px 10px;
+}
+.monpri{
+    font-size: 19px;
+    padding: 10px 10px 10px 10px;
+}
+.cardwelcome99{
+    border: none;
+    border-radius: 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 350px;
+
+}
+.Découvre{
+    color: #084442;
+
+/* H2 */
+font-family: "Work Sans";
+font-size: 37.9px;
+font-style: normal;
+font-weight: 600;
+line-height: 47.6px; /* 125.594% */
+margin: 90px 0px 20px 30px ;
+}

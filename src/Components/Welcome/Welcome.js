@@ -13,8 +13,7 @@ import { FaRegUser } from "react-icons/fa6";
 import { BsBucket } from "react-icons/bs";
 import { IoMdHeartEmpty } from "react-icons/io";
 
-import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
+
 
 import { Container, Form } from 'react-bootstrap';
 import News from './News';

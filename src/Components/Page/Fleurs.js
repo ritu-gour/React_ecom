@@ -50,15 +50,31 @@ const Fleurs = () => {
                                 </Nav>
                             </Col>
                         </Row>
-                        <Container><Row>
-                            <Col></Col>
-                            <Col >
-                                <img src='./avery.png' className='averyy' />
-                            </Col>
-                            <Col>
-                                <h2 className='recherche'>Fleurs & Co</h2>
-                            </Col><Col></Col><Col></Col>
-                        </Row></Container>
+                        <Container>
+                            <Row>
+                                <Col>
+                                </Col>
+                                <Col>
+                                    <Stack direction="horizontal" gap={3}>
+                                        <div className="p-2"> <img src='./image/avery1.png' className='averyy' /></div>
+                                        <div className="p-2"><h2 className='recherche'>Fleurs & Co</h2></div>
+
+                                    </Stack>
+                                </Col>
+                                <Col>
+                                </Col>
+                            </Row>
+
+                            {/* <Row>
+                                <Col></Col>
+                                <Col >
+                                    <img src='./avery.png' className='averyy' />
+                                </Col>
+                                <Col>
+                                    <h2 className='recherche'>Fleurs & Co</h2>
+                                </Col><Col></Col><Col></Col>
+                            </Row> */}
+                        </Container>
                     </div>
                 </div>
 
@@ -315,167 +331,302 @@ const Fleurs = () => {
                         <div>
 
                             <Row>
-                                <Col sm={4}>sm=4</Col>
-                                <Col sm={8}>
+                                <Col sm={4}>
+                                    <div className='' style={{ margin: "140px 0px 0px 0px" }}>
+                                        <p>Nouveautés</p>
+                                        <p className='rideaux rid'>Rideaux</p>
+                                        <p className='rideaux'>Linge de maison</p>
+                                        <p className='rideaux'>Vêtements</p>
+                                        <p>T-shirts</p>
+                                        <Row>
+                                            <Col sm={1}></Col>
+                                            <Col sm={10}>
+                                                <p className='rideaux1' >Manches longues</p>
+                                                <p className='rideaux1'>manches courtes</p>
+                                                <p className='rideaux1'>Lorem</p>
+                                                <p className='rideaux1'>Lorem</p>
+                                                <p className='rideaux1'>Lorem</p>
+                                                <p className='rideaux1'>Lorem</p>
 
-                                    <h1 className='pres78 mb'>VêTEMENTS</h1>
-                                    <p style={{ fontSize: "16px" }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate<br></br> convallis ligula ut sodales. Phasellus eleifend diam ut</p>
-                                    <Row>
-                                        <Col className='form34'>
+                                            </Col>
+                                        </Row>
+                                        <p className='rideaux1'>Vestes</p>
+                                        <p className='rideaux1'>Pantalons</p>
+                                        <p className='rideaux1'>Chemises</p>
+                                        <p className='rideaux1'>Sous-vêtements</p>
+                                        <p className='rideaux7'>Genre</p>
+                                        <Form>
+                                            <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                                                <Form.Check type="checkbox" label="Homme" />
+                                                <Form.Check type="checkbox" label="Femme" />
+                                            </Form.Group>
 
-                                            <Stack direction="horizontal" gap={3}>
-                                                <div className="p-"> <CiFilter style={{ fontSize: "28px" }} /></div>
-                                                <div className="p-"><Form>
-                                                    <Form.Select aria-label="Default select example" className='slect2'>
-                                                        <option>TRIER</option>
-                                                        <option value="1">One</option>
-                                                        <option value="2">Two</option>
-                                                        <option value="3">Three</option>
-                                                    </Form.Select>
-                                                </Form></div>
+                                        </Form>
 
-                                            </Stack>
+                                        <div>
+                                            <p className='rideaux7'>Label</p>
+                                            <Form>
+                                                <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                                                    <Form.Check type="checkbox" label="Eco-responsable" />
+                                                    <Form.Check type="checkbox" label="Fabriqué en France" />
+                                                    <Form.Check type="checkbox" label="Biologique" />
+                                                </Form.Group>
 
+                                            </Form>
+                                            <div>
+                                                <p className='rideaux7 mb-4'>Couleur</p>
+                                                <Row>
+                                                    <Col>
+                                                        <p style={{ padding: "10px 14px 10px 14px", background: "white", border: "1px solid black" }}></p>
+                                                    </Col>
+                                                    <Col>
+                                                        <p style={{ padding: "10px 14px 10px 14px", background: "#3069A2" }}></p>
+                                                    </Col>
+                                                    <Col>
+                                                        <p style={{ padding: "10px 14px 10px 14px", background: "#6A62C4" }}></p>
+                                                    </Col>
+                                                    <Col>
+                                                        <p style={{ padding: "10px 14px 10px 14px", background: "#D18DE2" }}></p>
+                                                    </Col>
+                                                    <Col>
+                                                        <p style={{ padding: "10px 14px 10px 14px", background: "#F34F76" }}></p>
+                                                    </Col>
+                                                    <Col></Col><Col></Col><Col></Col><Col></Col><Col></Col>
+                                                </Row>
+                                                <div className='my-2'> <Row>
+                                                    <Col>
+                                                        <p style={{ padding: "10px 14px 10px 14px", background: "#F0AB84" }}></p>
+                                                    </Col>
+                                                    <Col>
+                                                        <p style={{ padding: "10px 14px 10px 14px", background: "#97634C" }}></p>
+                                                    </Col>
+                                                    <Col>
+                                                        <p style={{ padding: "10px 14px 10px 14px", background: "#FAE161" }}></p>
+                                                    </Col>
+                                                    <Col>
+                                                        <p style={{ padding: "10px 14px 10px 14px", background: "#ABD158" }}></p>
+                                                    </Col>
+                                                    <Col>
+                                                        <p style={{ padding: "10px 14px 10px 14px", background: "#479B45" }}></p>
+                                                    </Col>
+                                                    <Col></Col><Col></Col><Col></Col><Col></Col><Col></Col>
+                                                </Row></div>
+                                                <Row>
+                                                    <Col>
+                                                        <p style={{ padding: "10px 14px 10px 14px", background: "#3FB28F" }}></p>
+                                                    </Col>
+                                                    <Col>
+                                                        <p style={{ padding: "10px 14px 10px 14px", background: "#93EFF4" }}></p>
+                                                    </Col>
+                                                    <Col>
+                                                        <p style={{ padding: "10px 14px 10px 14px", background: "#FFEECD" }}></p>
+                                                    </Col>
+                                                    <Col>
+                                                        <p style={{ padding: "10px 14px 10px 14px", background: "#C6C6C6" }}></p>
+                                                    </Col>
+                                                    <Col>
+                                                        <p style={{ padding: "10px 14px 10px 14px", background: "#373737" }}></p>
+                                                    </Col>
+                                                    <Col></Col><Col></Col><Col></Col><Col></Col><Col></Col>
+                                                </Row>
 
-                                        </Col>
-                                        <Col className='form34 my-5'>
-                                            <p style={{ float: "right" }}>produits</p>
-                                        </Col>
-                                    </Row>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <p className='rideaux7'>Filtre bouton</p>
+                                            <Form>
+                                                <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                                                    <Form.Check type="radio" label="Option 1" />
+                                                    <Form.Check type="radio" label="Option 2" />
+                                                    <Form.Check type="radio" label="Option 3" />
+                                                    <Form.Check type="radio" label="Option 4" />
+                                                </Form.Group>
 
-                                    <CardGroup>
-                                        <Card className="category" style={{ margin: "20px" }} >
-                                            <img className="Productimg" variant="top" src="./image/product2.jpeg" />
-                                            <Card.Body>
-                                                <Card.Title style={{ fontSize: "26px", color: "blue" }}>
-                                                    <p className='produitp'>Produit</p>
-                                                   <span style={{color:"black",fontSize:"40px"}} className='bsdot'><BsDot/></span> <span className='bsdot1' style={{color:"#dcdcdc",fontSize:"40px"}}> <BsDot /></span>
-                                                <h4 style={{fontSize:"20px",color:"black"}}>39€</h4>
-                                                </Card.Title>
+                                            </Form>
+                                        </div>
+                                        <div>
+                                            <p className='rideaux7'>Prix</p>
+                                            <Form>
+                                                <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                                                    <Form.Check type="checkbox" label="0€ – 40€" />
+                                                    <Form.Check type="checkbox" label="40€ – 100€" />
+                                                    <Form.Check type="checkbox" label="100€ – 150€" />
+                                                    <Form.Check type="checkbox" label="150€ – 175€" />
+                                                    <Form.Check type="checkbox" label="175€ – 250€" />
+                                                    <Form.Check type="checkbox" label="250€ – 350€" />
 
+                                                </Form.Group>
+                                                <input type="range" />
+                                               
+                                            
 
-                                            </Card.Body>
-
-                                        </Card>
-                                        <Card className="category" style={{ margin: "20px" }} >
-                                            <img className="Productimg" variant="top" src="./image/product2.jpeg" />
-                                            <Card.Body>
-                                                <Card.Title style={{ fontSize: "26px", color: "blue" }}>
-                                                <p className='produitp'>Produit</p>
-                                                <span style={{color:"black",fontSize:"40px"}} className='bsdot'><BsDot/></span> <span className='bsdot1' style={{color:"#dcdcdc",fontSize:"40px"}}> <BsDot /></span>
-                                                <h4 style={{fontSize:"20px",color:"black"}}>39€</h4>
-                                                </Card.Title>
-
-
-                                            </Card.Body>
-
-                                        </Card>
-                                        <Card className="category" style={{ margin: "20px" }} >
-                                            <img className="Productimg" variant="top" src="./image/product2.jpeg" />
-                                            <Card.Body>
-                                                <Card.Title style={{ fontSize: "26px", color: "blue" }}>
-                                                <p className='produitp'>Produit</p>
-                                                <span style={{color:"black",fontSize:"40px"}} className='bsdot'><BsDot/></span> <span className='bsdot1' style={{color:"#dcdcdc",fontSize:"40px"}}> <BsDot /></span>
-                                                <h4 style={{fontSize:"20px",color:"black"}}>39€</h4>
-                                                </Card.Title>
-
-
-                                            </Card.Body>
-
-                                        </Card>
-                                    </CardGroup>
-                                    <CardGroup>
-                                        <Card className="category" style={{ margin: "20px" }} >
-                                            <img className="Productimg" variant="top" src="./image/product2.jpeg" />
-                                            <Card.Body>
-                                                <Card.Title style={{ fontSize: "26px", color: "blue" }}>
-                                                    <p className='produitp'>Produit</p>
-                                                   <span style={{color:"black",fontSize:"40px"}} className='bsdot'><BsDot/></span> <span className='bsdot1' style={{color:"#dcdcdc",fontSize:"40px"}}> <BsDot /></span>
-                                                <h4 style={{fontSize:"20px",color:"black"}}>39€</h4>
-                                                </Card.Title>
-
-
-                                            </Card.Body>
-
-                                        </Card>
-                                        <Card className="category" style={{ margin: "20px" }} >
-                                            <img className="Productimg" variant="top" src="./image/product2.jpeg" />
-                                            <Card.Body>
-                                                <Card.Title style={{ fontSize: "26px", color: "blue" }}>
-                                                <p className='produitp'>Produit</p>
-                                                <span style={{color:"black",fontSize:"40px"}} className='bsdot'><BsDot/></span> <span className='bsdot1' style={{color:"#dcdcdc",fontSize:"40px"}}> <BsDot /></span>
-                                                <h4 style={{fontSize:"20px",color:"black"}}>39€</h4>
-                                                </Card.Title>
-
-
-                                            </Card.Body>
-
-                                        </Card>
-                                        <Card className="category" style={{ margin: "20px" }} >
-                                            <img className="Productimg" variant="top" src="./image/product2.jpeg" />
-                                            <Card.Body>
-                                                <Card.Title style={{ fontSize: "26px", color: "blue" }}>
-                                                <p className='produitp'>Produit</p>
-                                                <span style={{color:"black",fontSize:"40px"}} className='bsdot'><BsDot/></span> <span className='bsdot1' style={{color:"#dcdcdc",fontSize:"40px"}}> <BsDot /></span>
-                                                <h4 style={{fontSize:"20px",color:"black"}}>39€</h4>
-                                                </Card.Title>
-
-
-                                            </Card.Body>
-
-                                        </Card>
-                                    </CardGroup>
-                                    <CardGroup>
-                                        <Card className="category" style={{ margin: "20px" }} >
-                                            <img className="Productimg" variant="top" src="./image/product2.jpeg" />
-                                            <Card.Body>
-                                                <Card.Title style={{ fontSize: "26px", color: "blue" }}>
-                                                    <p className='produitp'>Produit</p>
-                                                   <span style={{color:"black",fontSize:"40px"}} className='bsdot'><BsDot/></span> <span className='bsdot1' style={{color:"#dcdcdc",fontSize:"40px"}}> <BsDot /></span>
-                                                <h4 style={{fontSize:"20px",color:"black"}}>39€</h4>
-                                                </Card.Title>
-
-
-                                            </Card.Body>
-
-                                        </Card>
-                                        <Card className="category" style={{ margin: "20px" }} >
-                                            <img className="Productimg" variant="top" src="./image/product2.jpeg" />
-                                            <Card.Body>
-                                                <Card.Title style={{ fontSize: "26px", color: "blue" }}>
-                                                <p className='produitp'>Produit</p>
-                                                <span style={{color:"black",fontSize:"40px"}} className='bsdot'><BsDot/></span> <span className='bsdot1' style={{color:"#dcdcdc",fontSize:"40px"}}> <BsDot /></span>
-                                                <h4 style={{fontSize:"20px",color:"black"}}>39€</h4>
-                                                </Card.Title>
-
-
-                                            </Card.Body>
-
-                                        </Card>
-                                        <Card className="category" style={{ margin: "20px" }} >
-                                            <img className="Productimg" variant="top" src="./image/product2.jpeg" />
-                                            <Card.Body>
-                                                <Card.Title style={{ fontSize: "26px", color: "blue" }}>
-                                                <p className='produitp'>Produit</p>
-                                                <span style={{color:"black",fontSize:"40px"}} className='bsdot'><BsDot/></span> <span className='bsdot1' style={{color:"#dcdcdc",fontSize:"40px"}}> <BsDot /></span>
-                                                <h4 style={{fontSize:"20px",color:"black"}}>39€</h4>
-                                                </Card.Title>
-
-
-                                            </Card.Body>
-
-                                        </Card>
-                                    </CardGroup>
-
-                                </Col>
-
-                            </Row>
+                                       
+                                    </Form>
+                                </div>
                         </div>
-                    </Container>
-                </div>
-                <Footer />
+
+
+                    </Col>
+                    <Col sm={8}>
+
+                        <h1 className='pres78 mb'>VêTEMENTS</h1>
+                        <p style={{ fontSize: "16px" }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vulputate<br></br> convallis ligula ut sodales. Phasellus eleifend diam ut</p>
+                        <Row>
+                            <Col className='form34'>
+
+                                <Stack direction="horizontal" gap={3}>
+                                    <div className="p-"> <CiFilter style={{ fontSize: "28px" }} /></div>
+                                    <div className="p-"><Form>
+                                        <Form.Select aria-label="Default select example" className='slect2'>
+                                            <option>TRIER</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </Form.Select>
+                                    </Form></div>
+
+                                </Stack>
+
+
+                            </Col>
+                            <Col className='form34 my-5'>
+                                <p style={{ float: "right" }}>produits</p>
+                            </Col>
+                        </Row>
+
+                        <CardGroup>
+                            <Card className="category" style={{ margin: "20px" }} >
+                                <img className="Productimg" variant="top" src="./image/product2.jpeg" />
+                                <Card.Body>
+                                    <Card.Title style={{ fontSize: "26px", color: "blue" }}>
+                                        <p className='produitp'>Produit</p>
+                                        <span style={{ color: "black", fontSize: "40px" }} className='bsdot'><BsDot /></span> <span className='bsdot1' style={{ color: "#dcdcdc", fontSize: "40px" }}> <BsDot /></span>
+                                        <h4 style={{ fontSize: "20px", color: "black" }}>39€</h4>
+                                    </Card.Title>
+
+
+                                </Card.Body>
+
+                            </Card>
+                            <Card className="category" style={{ margin: "20px" }} >
+                                <img className="Productimg" variant="top" src="./image/product2.jpeg" />
+                                <Card.Body>
+                                    <Card.Title style={{ fontSize: "26px", color: "blue" }}>
+                                        <p className='produitp'>Produit</p>
+                                        <span style={{ color: "black", fontSize: "40px" }} className='bsdot'><BsDot /></span> <span className='bsdot1' style={{ color: "#dcdcdc", fontSize: "40px" }}> <BsDot /></span>
+                                        <h4 style={{ fontSize: "20px", color: "black" }}>39€</h4>
+                                    </Card.Title>
+
+
+                                </Card.Body>
+
+                            </Card>
+                            <Card className="category" style={{ margin: "20px" }} >
+                                <img className="Productimg" variant="top" src="./image/product2.jpeg" />
+                                <Card.Body>
+                                    <Card.Title style={{ fontSize: "26px", color: "blue" }}>
+                                        <p className='produitp'>Produit</p>
+                                        <span style={{ color: "black", fontSize: "40px" }} className='bsdot'><BsDot /></span> <span className='bsdot1' style={{ color: "#dcdcdc", fontSize: "40px" }}> <BsDot /></span>
+                                        <h4 style={{ fontSize: "20px", color: "black" }}>39€</h4>
+                                    </Card.Title>
+
+
+                                </Card.Body>
+
+                            </Card>
+                        </CardGroup>
+                        <CardGroup>
+                            <Card className="category" style={{ margin: "20px" }} >
+                                <img className="Productimg" variant="top" src="./image/product2.jpeg" />
+                                <Card.Body>
+                                    <Card.Title style={{ fontSize: "26px", color: "blue" }}>
+                                        <p className='produitp'>Produit</p>
+                                        <span style={{ color: "black", fontSize: "40px" }} className='bsdot'><BsDot /></span> <span className='bsdot1' style={{ color: "#dcdcdc", fontSize: "40px" }}> <BsDot /></span>
+                                        <h4 style={{ fontSize: "20px", color: "black" }}>39€</h4>
+                                    </Card.Title>
+
+
+                                </Card.Body>
+
+                            </Card>
+                            <Card className="category" style={{ margin: "20px" }} >
+                                <img className="Productimg" variant="top" src="./image/product2.jpeg" />
+                                <Card.Body>
+                                    <Card.Title style={{ fontSize: "26px", color: "blue" }}>
+                                        <p className='produitp'>Produit</p>
+                                        <span style={{ color: "black", fontSize: "40px" }} className='bsdot'><BsDot /></span> <span className='bsdot1' style={{ color: "#dcdcdc", fontSize: "40px" }}> <BsDot /></span>
+                                        <h4 style={{ fontSize: "20px", color: "black" }}>39€</h4>
+                                    </Card.Title>
+
+
+                                </Card.Body>
+
+                            </Card>
+                            <Card className="category" style={{ margin: "20px" }} >
+                                <img className="Productimg" variant="top" src="./image/product2.jpeg" />
+                                <Card.Body>
+                                    <Card.Title style={{ fontSize: "26px", color: "blue" }}>
+                                        <p className='produitp'>Produit</p>
+                                        <span style={{ color: "black", fontSize: "40px" }} className='bsdot'><BsDot /></span> <span className='bsdot1' style={{ color: "#dcdcdc", fontSize: "40px" }}> <BsDot /></span>
+                                        <h4 style={{ fontSize: "20px", color: "black" }}>39€</h4>
+                                    </Card.Title>
+
+
+                                </Card.Body>
+
+                            </Card>
+                        </CardGroup>
+                        <CardGroup>
+                            <Card className="category" style={{ margin: "20px" }} >
+                                <img className="Productimg" variant="top" src="./image/product2.jpeg" />
+                                <Card.Body>
+                                    <Card.Title style={{ fontSize: "26px", color: "blue" }}>
+                                        <p className='produitp'>Produit</p>
+                                        <span style={{ color: "black", fontSize: "40px" }} className='bsdot'><BsDot /></span> <span className='bsdot1' style={{ color: "#dcdcdc", fontSize: "40px" }}> <BsDot /></span>
+                                        <h4 style={{ fontSize: "20px", color: "black" }}>39€</h4>
+                                    </Card.Title>
+
+
+                                </Card.Body>
+
+                            </Card>
+                            <Card className="category" style={{ margin: "20px" }} >
+                                <img className="Productimg" variant="top" src="./image/product2.jpeg" />
+                                <Card.Body>
+                                    <Card.Title style={{ fontSize: "26px", color: "blue" }}>
+                                        <p className='produitp'>Produit</p>
+                                        <span style={{ color: "black", fontSize: "40px" }} className='bsdot'><BsDot /></span> <span className='bsdot1' style={{ color: "#dcdcdc", fontSize: "40px" }}> <BsDot /></span>
+                                        <h4 style={{ fontSize: "20px", color: "black" }}>39€</h4>
+                                    </Card.Title>
+
+
+                                </Card.Body>
+
+                            </Card>
+                            <Card className="category" style={{ margin: "20px" }} >
+                                <img className="Productimg" variant="top" src="./image/product2.jpeg" />
+                                <Card.Body>
+                                    <Card.Title style={{ fontSize: "26px", color: "blue" }}>
+                                        <p className='produitp'>Produit</p>
+                                        <span style={{ color: "black", fontSize: "40px" }} className='bsdot'><BsDot /></span> <span className='bsdot1' style={{ color: "#dcdcdc", fontSize: "40px" }}> <BsDot /></span>
+                                        <h4 style={{ fontSize: "20px", color: "black" }}>39€</h4>
+                                    </Card.Title>
+
+
+                                </Card.Body>
+
+                            </Card>
+                        </CardGroup>
+
+                    </Col>
+
+                </Row>
             </div>
-        </div>
+        </Container>
+                </div >
+    <Footer />
+            </div >
+        </div >
     )
 }
 
