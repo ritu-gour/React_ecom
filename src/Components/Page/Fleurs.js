@@ -134,7 +134,7 @@ const Fleurs = () => {
                                 </Card.Body>
 
                             </Card>
-                            <Card className="category" style={{ margin: "20px" }} >
+                            <Card className="category4" style={{ margin: "20px" }} >
                                 <img className="categoryimgfleur" variant="top" src="./image/categoryfleure.jpeg" />
                                 <Card.Body>
                                     <Card.Title style={{ fontSize: "26px", color: "blue" }}>

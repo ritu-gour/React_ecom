@@ -19,7 +19,7 @@ const Info_inscription_commerçants = () => {
             <div className="new-wrapper">
               
                 <div className="showcase">
-                    <div id="google_translate_element" style={{ float: 'right' }}></div>
+                    {/* <div id="google_translate_element" style={{ float: 'right' }}></div> */}
                     <img src="./Component2.png" alt="Picture" />
                     <div className="overlay">
                         <h2>Ouvrir une boutique Maathena</h2>
@@ -160,11 +160,11 @@ const Info_inscription_commerçants = () => {
 
 
                     <Row >
-                        <Col xs={6} md={4}>
-                            <img src='./Image1.png' alt='' width={300} height={400} className='my-5 m46 ' />
+                        <Col xs={7} md={5}>
+                            <img src='./Image1.png' alt='' width={350} height={440} className='my-5 m46 ' />
 
                         </Col>
-                        <Col xs={12} md={8} className='marg1'>
+                        <Col xs={12} md={7} className='marg1'>
                             <img src='./ic_outline-query-stats.png' alt='' width={40} className='my-4 img76 ' />
                             <h2 className='font3 '>Pilotez votre activité simplement</h2>
                             <p className='my- bh89' style={{ fontSize: "16px" }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.

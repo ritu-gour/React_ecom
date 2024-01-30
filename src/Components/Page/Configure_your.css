@@ -1,0 +1,349 @@
+.showcase {
+    width: 100%;
+    height: 440px;
+    position: relative;
+    color: white;
+    text-align: center;
+    margin: -80px 0px 0px 0px;
+    padding: 40px 0px 50px 0px;
+}
+
+.showcase img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1
+}
+
+  /* Menu Styles */
+  .bg-body-tertiary {
+    /* --bs-bg-opacity: 1; */
+    background-color: transparent !important;
+    padding: 0px 0px 0px 0px !important;
+    margin: -30px 0px 0px 0px !important;
+
+}
+.navbar-text {
+  padding-top: 0px;
+  padding-bottom: -50px;
+  color: var(--bs-navbar-color);
+  margin: 10px 0px -33px 0px;
+  z-index: 2000;
+}
+
+
+  .primary-nav {
+      position: fixed;
+      z-index: 999;
+     
+    margin: -70px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
+  }
+#google_translate_element{
+  padding: 20px 0px 20px 0px;
+  margin-top: 10px;
+  
+}
+
+.showcase .overlay {
+    width: 100%;
+    height: 440px;
+    /* background-color:#0844424d; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1
+}
+
+.showcase h2 {
+    margin-top: 200px;
+    font-size: 3em;
+}
+
+.showcase p {
+    margin-top: 8px;
+    font-size: 1.2em;
+}
+
+.cardconfig {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+    border-radius: 0px;
+    padding: 40px;
+}
+
+.cradconfig1 {
+    padding: 0px 200px 0px 200px;
+    margin-top:-800px ;
+}
+
+.form45 {
+    padding: 10px 10px 10px 10px;
+    font-size: 13px;
+    color: rgb(51, 50, 50) !important;
+}
+
+.Informationsgénérales {
+    color: #084442;
+
+    /* H3 */
+    font-family: "Work Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 30px;
+
+}
+
+.custom-file-drop-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: grid;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: 2px dashed #3e3e3e;
+    height: 160px;
+    width: 200px;
+    cursor: -webkit-grab;
+    cursor: grab;
+    margin-top: 10px;
+}
+
+.bigimg {
+    font-size: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 0px;
+}
+
+.custom-file-drop-area label {
+    color: #737373;
+
+    text-align: center;
+    font-family: Manrope;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.custom-file-drop-area input {
+    display: none;
+    width: 0px;
+    height: 0px;
+    background-color: transparent;
+    border: none;
+}
+
+.form46 {
+    padding: 10px 10px 10px 10px;
+    font-size: 15px;
+    color: rgb(229, 229, 229) !important;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 0px 0px, rgba(255, 255, 255, 0.25) 0px 0px 0px inset;
+    float: right;
+    border: 1px solid rgb(205, 205, 205);
+}
+
+.quelle {
+    font-size: 14px;
+    margin: 13px -150px 0px 0px !important;
+
+}
+
+.box900 {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 5px;
+    margin-bottom: 14px;
+}
+
+.radio2 {
+    font-size: 14px;
+    margin: 15px 0px -8px 0px;
+}
+
+.radio1 {
+    display: flex;
+    gap: 2px;
+    margin: 0px 10px 0px 10px;
+}
+
+.radio3 {
+    font-size: 14px;
+    margin: 0px 30px 0px 0px;
+}
+
+.bna {
+    margin: 0px 0px -10px 0px;
+
+}
+
+.bna1 {
+    margin: -10px 0px 0px 2px;
+}
+
+.eng1 {
+    background: rgba(185, 230, 201, 0.16);
+    padding: 0px 0px 0px 30px;
+    margin-bottom: 1px;
+
+}
+
+.eng11 {
+    background: rgba(255, 255, 255, 0.16);
+    padding: 0px 0px 0px 30px;
+    margin-bottom: 1px;
+
+}
+
+.enq1 {
+
+    margin: 0px 50px 0px 0px;
+}
+
+.numb {
+
+    width: 30px;
+    /* margin: 0px !important; */
+    display: block;
+    margin-left: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.box900n {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px 20px 20px 20px;
+
+}
+
+.numbh {
+    width: 30px !important;
+    /* margin: 0px !important; */
+    display: block !important;
+    margin-left: auto;
+    height: 25px !important;
+    margin-right: auto;
+}
+
+.labels {
+    color: #084442;
+
+    /* H3 */
+    font-family: "Work Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 50px;
+
+}
+
+.radio9 {
+    margin-bottom: -50px !important;
+
+}
+
+.checkbox7 {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px 20px 20px 20px;
+    margin: 30px 200px 0px 0px;
+}
+
+.VENDRESURMAATHENA {
+    background-color: #FFC309 !important;
+    color: #084442 !important;
+
+    font-family: "Work Sans";
+    font-size: 13.515px;
+    font-style: normal;
+    font-weight: 600;
+    border: none !important;
+padding: 12px 30px 12px 30px !important;
+border-radius: 0px !important;
+margin-left: auto !important;
+margin-right: auto !important;
+display: block !important;
+margin-top: 40px !important;
+}
+.VENDRESURMAATHENA:hover {
+    background-color: #084442 !important;
+    color: #ffffff !important;
+
+    
+    font-family: "Work Sans";
+    font-size: 13.515px;
+    font-style: normal;
+    font-weight: 600;
+    border: none !important;
+padding: 12px 30px 12px 30px !important;
+border-radius: 0px !important;
+margin-left: auto !important;
+margin-right: auto !important;
+display: block !important;
+margin-top: 40px !important;
+}
+
+ /* Menu Styles */
+ .bg-body-tertiary {
+    /* --bs-bg-opacity: 1; */
+    background-color: transparent !important;
+    padding: 0px 0px 0px 0px !important;
+    margin: -30px 0px 0px 0px !important;
+
+}
+.navbar-text {
+  padding-top: 0px;
+  padding-bottom: -50px;
+  color: var(--bs-navbar-color);
+  margin: 10px 0px -33px 0px;
+  z-index: 2000;
+}
+
+
+  .primary-nav {
+      position: fixed;
+      z-index: 999;
+     
+    margin: -70px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
+  }
+  .btngh{
+    background-color: #B9E6C9!important;
+    color: #084442 !important;
+
+    font-family: "Work Sans";
+    font-size: 13.515px;
+    font-style: normal;
+    font-weight: 600;
+    border: none !important;
+padding: 12px 30px 12px 30px !important;
+border-radius: 0px !important;
+
+margin-top: 0px !important;
+  }
+  .btngh:hover{
+    background-color: #FFC309 !important;
+    color: #084442 !important;
+
+    font-family: "Work Sans";
+    font-size: 13.515px;
+    font-style: normal;
+    font-weight: 600;
+    border: none !important;
+padding: 12px 30px 12px 30px !important;
+border-radius: 0px !important;
+
+margin-top: 0px !important;
+  }
+.rue{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}

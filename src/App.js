@@ -13,7 +13,9 @@ import Recherche from './Components/Recherche/Recherche';
 import Fleurs from './Components/Page/Fleurs';
 import Carte from './Components/Page/Carte';
 import Monpanier from './Components/Page/Monpanier';
+import Configure_your from './Components/Page/Configure_your';
 
+import Testings from './Components/Page/Testings';
 function App() {
   return (
     <div className="App">
@@ -30,6 +32,9 @@ function App() {
         <Route path='/fleurs' element={<Fleurs />}/> 
         <Route path='/carte' element={<Carte />}/>
         <Route path='/Monpanier' element={<Monpanier />}/>
+        <Route path='/Configure_your' element={<Configure_your />} />
+        <Route path='/Testings' element={<Testings /> } />
+       
       </Routes>
       {/* <Footer /> */}
 

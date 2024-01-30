@@ -13,7 +13,7 @@ const Login = () => {
             <div className="new-wrapper">
 
                 <div className="showcase">
-                    <div id="google_translate_element" style={{ float: 'right' }}></div>
+                    {/* <div id="google_translate_element" style={{ float: 'right' }}></div> */}
                     <img src="./contact.jpg" alt="Picture" />
                     <div className="overlay">
                         <h2>Se connecter</h2>

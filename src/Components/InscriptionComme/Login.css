@@ -10,7 +10,7 @@
     align-items: center;
   border: none;
   border-radius: 0px;
-    background: #084442;
+    background: #084442 !important;
    margin-top:35px ;
 width: 100%;
 
@@ -61,7 +61,7 @@ width: 100%;
     align-items: center;
   border: 2px solid #FFC309;
   border-radius: 0px;
-    background: #FFC309;
+    background: #FFC309 !important;
 }
 .google2{
     font-size: 20px;
@@ -78,7 +78,7 @@ width: 100%;
     align-items: center;
   border: none;
   border-radius: 0px;
-    background: #084442;
+    background: #084442 !important;
    margin-top:35px ;
 width: 100%;
 
@@ -96,5 +96,5 @@ width: 100%;
     align-items: center;
   border: none;
   border-radius: 0px;
-    background: #B9E6C9;
+    background: #B9E6C9 !important;
 }

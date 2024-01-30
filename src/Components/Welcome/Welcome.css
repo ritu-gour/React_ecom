@@ -7,7 +7,7 @@
 }
 .overlay2{
    background-color: rgba(0, 0, 0, 0.60);
-   height: 710px;
+   height: 750px;
 }
 .showcase1 {
     width: 100%;
@@ -16,8 +16,8 @@
     color: white;
 
     text-align: center;
-    margin: -40px 0px 0px 0px;
-    padding: 40px 0px 50px 0px;
+    margin: -80px 0px 0px 0px;
+    padding: 0px 0px 50px 0px;
   }
   
   .showcase1 img {
@@ -147,7 +147,7 @@
 }
 .bn{
     margin: 0px;
-    padding: 10px 50px 0px 0px;
+    padding: 90px 50px 0px 0px;
 }
 .icon9{
     font-size: 18px;

@@ -40,7 +40,7 @@ const News = () => {
                             <h5 className="bb">Actu / mise en avant</h5>
                             <p className="bb1">Découvrez les créations de Lucie et Benoît !<br></br>
                                 Fleuristes passionnées, ils préparent pour vous et vos proches les plus <br></br>belles compositions florales. Allez faire un tour sur leur boutique !</p>
-                            <Button variant="primary" className='bthn90 my-4 btng'>VOIR LA BOUTIQUE</Button>
+                            <Button variant="primary" href='./fleurs' className='bthn90 my-4 btng'>VOIR LA BOUTIQUE</Button>
                         </Col>
                     </Row>
 
@@ -59,7 +59,7 @@ const News = () => {
                             <h5 className="bb">Actu / mise en avant</h5>
                             <p className="bb1">Découvrez les créations de Lucie et Benoît !<br></br>
                                 Fleuristes passionnées, ils préparent pour vous et vos proches les plus <br></br>belles compositions florales. Allez faire un tour sur leur boutique !</p>
-                            <Button variant="primary" className='bthn90 my-4 btng'>VOIR LA BOUTIQUE</Button>
+                            <Button variant="primary" href='./fleurs' className='bthn90 my-4 btng'>VOIR LA BOUTIQUE</Button>
                         </Col>
                     </Row>
 

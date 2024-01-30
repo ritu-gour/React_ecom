@@ -53,7 +53,17 @@ input.form100.form-control {
 }
 .COMMANDER{
     background-color:#FFC309 ;
-    width: 65%;
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    padding: 8px 30px 8px 12px;
+    color: #084442;
+    margin: 20px 0px 0px 0px;
+}
+.COMMANDER:hover{
+    
+    background-color:#B9E6C9 !important; 
+    width: 100%;
     border: none;
     border-radius: 0px;
     padding: 8px 30px 8px 12px;
@@ -97,4 +107,20 @@ font-style: normal;
 font-weight: 600;
 line-height: 47.6px; /* 125.594% */
 margin: 90px 0px 20px 30px ;
+}
+.btn8009{
+    border-radius: 0px ;
+    background-color:#B9E6C9 !important; 
+    border: none;
+    color: #084442;
+    font-weight: 600;
+    font-size: 18px;
+}
+.btn8009:hover{
+    border-radius: 0px ;
+    background-color:#FFC309  !important; 
+    border: none;
+    color: #084442;
+    font-weight: 600;
+    font-size: 18px;
 }

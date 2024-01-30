@@ -24,7 +24,7 @@ const Monpanier = () => {
       <div>
         <div className="new-wrapper">
           <div className="showcase3">
-            {/* <div id="google_translate_element" style={{ float: 'right' }}></div> */}
+          {/* <div id="google_translate_element" style={{ float: 'right' }}></div> */}
             <img src="./image/monpanir.png" alt="Picture" />
 
             <div className="overlay89">
@@ -34,7 +34,7 @@ const Monpanier = () => {
                 <Col>
                 </Col>
                 <Col>
-                  <Nav className="justify-content-end bn" activeKey="" >
+                  <Nav className="justify-content-end bn3" activeKey="" >
                     <Nav.Item>
                       <Nav.Link href="/"><CiSearch className='icon99' />
                       </Nav.Link>
@@ -83,7 +83,7 @@ const Monpanier = () => {
                       </Stack>
                       <Stack direction="horizontal" gap={3}>
                         <div className="p-"><p style={{ border: "2px solid black", padding: "4px 8px 4px 8px" }}><CiHeart /></p>
-                        </div>
+                          </div>
                         <div className="p-2">
                           <Form>
                             <Form.Select aria-label="Default select example" className='monpanier1'>
@@ -97,7 +97,7 @@ const Monpanier = () => {
                       </Stack>
                     </div>
 
-                    <div className='p-2' style={{ float: "right", margin: "-190px 0px 0px 90px", fontSize: "25px" }}>
+                    <div className='p-2' style={{ float: "right", margin: "-190px 0px 0px 20px", fontSize: "25px" }}>
                       <IoMdClose />
                     </div>
 
@@ -121,7 +121,7 @@ const Monpanier = () => {
                           <div className="p-2">Taille : 38 <br></br> <p style={{ color: "white" }}>.</p></div>
                         </Stack>
                         <Stack direction="horizontal" gap={3}>
-                          <div className="p-"><p style={{ border: "2px solid black", padding: "4px 8px 4px 8px" }}><CiHeart /></p>
+                        <div className="p-"><p style={{ border: "2px solid black", padding: "4px 8px 4px 8px" }}><CiHeart /></p>
                           </div>
                           <div className="p-2">
                             <Form>
@@ -136,7 +136,7 @@ const Monpanier = () => {
                         </Stack>
                       </div>
 
-                      <div className='p-2' style={{ float: "right", margin: "-190px 0px 0px 90px", fontSize: "25px" }}>
+                      <div className='p-2' style={{ float: "right", margin: "-190px 0px 0px 20px", fontSize: "25px" }}>
                         <IoMdClose />
                       </div>
 
@@ -175,11 +175,12 @@ const Monpanier = () => {
                         </Stack>
                       </div>
 
-                      <div className='p-2' style={{ margin: "-190px 90px 0px 0px", fontSize: "25px" }}>
+                      <div className='p-2' style={{ margin: "-190px 0px 0px 20px", fontSize: "25px" }}>
                         <IoMdClose />
                       </div>
 
                     </Stack></div>
+                    
 
 
 
@@ -197,7 +198,7 @@ const Monpanier = () => {
                             <div className="d-flex">
                               <Form.Control type="text" className='form100' placeholder='' />
 
-                              <Button variant="" className='btn809' type="button">
+                              <Button variant="" className='btn8009' type="button">
                                 APPLIQUER
                               </Button>
 

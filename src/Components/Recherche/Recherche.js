@@ -20,7 +20,7 @@ const Recherche = () => {
     return (
         <div>
             <div className="new-wrapper">
-
+                   
                 <div className="showcase3">
                     {/* <div id="google_translate_element" style={{ float: 'right' }}></div> */}
                     <img src="./Component2.png" alt="Picture" />

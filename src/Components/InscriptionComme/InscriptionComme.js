@@ -12,9 +12,9 @@ const InscriptionComme = () => {
   return (
     <div>
       <div className="new-wrapper">
-
+      {/* <div id="google_translate_element" style={{ float: 'right' }}></div> */}
         <div className="showcase">
-          <div id="google_translate_element" style={{ float: 'right' }}></div>
+          {/* <div id="google_translate_element" style={{ float: 'right' }}></div> */}
           <img src="./Component2.png" alt="Picture" />
           <div className="overlay">
             <h2>Rejoindre la marketplace</h2>

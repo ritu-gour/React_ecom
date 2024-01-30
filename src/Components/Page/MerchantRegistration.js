@@ -16,7 +16,7 @@ const MerchantRegistration = () => {
             <div className="new-wrapper">
 
                 <div className="showcase">
-                    <div id="google_translate_element" style={{ float: 'right' }}></div>
+                   
                     <img src="./Component2.png" alt="Picture" />
                     <div className="overlay">
                         <h2>Formulaire d’inscription</h2>

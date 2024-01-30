@@ -53,7 +53,7 @@ width: 100%;
     align-items: center;
   border: none;
   border-radius: 0px;
-    background: #FFC309;
+    background: #FFC309 !important;
 }
 .font03{
     color: #084442;
