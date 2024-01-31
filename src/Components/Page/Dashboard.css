@@ -1,0 +1,198 @@
+.Ellipse{
+    width: 90px !important;
+    height: 90px !important;
+    margin-top: 100px;
+   
+    margin: 70px 1300px 90px 1200px !important;
+
+}
+.overlay3{
+    background-color: rgba(0, 0, 0, 0.60);
+    height: 410px;
+ }
+ .showcase3 {
+     width: 100%;
+     height: 450px;
+     /* position: relative; */
+     color: white;
+ 
+     text-align: center;
+     margin: -40px 0px 0px 0px;
+     padding: 40px 0px 50px 0px;
+   }
+   
+   
+  
+.recherche27{
+    margin: 180px 0px 0px 0px;
+    font-size: 50px;
+   }
+   .das{
+    margin: 80px 0px 0px 80px;
+   }
+   .table19{
+margin: 0px 0px 6px 0px ;
+   }
+   .chiffre{
+    color: #084442;
+
+    /* H3 */
+    font-family: "Work Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48.1px; /* 169.366% */
+   }
+   .chiffer1{
+    color: #084442;
+
+    /* H3 */
+    font-family: "Work Sans";
+    font-size:25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48.1px; /* 169.366% */
+   }
+   .cardchiffer{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+    border-radius: 0px;
+    padding: 10px 40px 10px 40px;
+   }
+   .cardchiffer1{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+   
+    border-radius: 0px;
+    padding: 10px 0px 10px 0px;
+    margin: 10px 20px 0px 0px;
+   }
+   .cardchiffer22{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+    border-radius: 0px;
+    padding: 10px 0px 10px 0px;
+    margin: 10px 20px 0px 0px;
+   }
+   .cardchiffer33{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+    border-radius: 0px;
+    padding: 10px 0px 10px 0px;
+    margin: 10px 10px 0px 0px;
+   }
+
+
+   .cardchiffer229{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+    border-radius: 0px;
+    padding: 10px 0px 10px 0px;
+    margin: 30px 10px 30px 0px;
+   }
+   .parce{
+    padding: 10px;
+   }
+
+   .CircularProgressbar .CircularProgressbar-trail {
+    stroke: #B9E6C9 !important;
+    stroke-linecap: round;
+}
+.CircularProgressbar .CircularProgressbar-path {
+    stroke: #084442 !important;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+    fill: #B9E6C9 !important;
+    
+   
+    font-weight: 900;
+    background-color: red !important;
+    font-size: 30px !important;
+  
+    text-anchor: middle;
+}
+
+.godot{
+    /* color:#B9E6C9 !important;
+    font-size: 30px !important;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   margin-top: -50px; */
+   
+}
+.chiffer11{
+  font-size: 40px;
+  font-weight: 600;
+  color: #B9E6C9;  
+  margin: 10px 0px -10px 0px;
+}
+.chiffer12{
+    font-size: 30px;
+    font-weight: 600;
+    color: #B9E6C9;  
+   
+  }
+  /* .sc-lnsjTu.epZUJV {
+    margin: -1200px 300px 0px 0px;
+    color: white;
+    border: 2px solid white;
+   
+}
+
+span.sc-bZHSRq.sc-ilxebA.czCoqD.fAiwtk {
+    margin: -1200px 10px 0px 0px !important;
+    z-index: 10;
+    color:white;
+} */
+.div tr:nth-child(even){background-color: #b80f0f;}
+
+.div tr:hover {background-color: #ddd;}
+
+
+.ser {
+    border-radius: 0px;
+    color: #838383db !important;
+    box-shadow: rgb(100 100 111 / 11%) 0px 7px 29px 0px;
+    border: none;
+    margin: -20px 0px 0px 0px;
+}
+
+.hMFeQo {
+    position: relative;
+    display: flex;
+    flex: 1 1 auto;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 20px 16px 4px 24px !important;
+    width: 100%;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    background-color: #084442 !important;
+    min-height: 52px;
+    color:white !important;
+}
+.inIBgH {
+    flex: 0 0 48px;
+    min-width: 48px;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    white-space: nowrap;
+    display: none !important;
+}
+.iJdfvk {
+    flex: 0 0 48px;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    white-space: nowrap;
+    font-size: unset;
+    display: none !important;
+}
+
+
+

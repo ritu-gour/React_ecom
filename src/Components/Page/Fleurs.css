@@ -76,6 +76,10 @@ line-height: normal;
     margin: 25px 0px 0px 0px;
 
    }
+   .bn88{
+    margin: 0px;
+    padding: 5px 50px 0px 0px;
+}
    .btnprodit:hover{
     background-color: #FFC309;
     border: none;

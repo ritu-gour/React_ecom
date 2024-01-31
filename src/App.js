@@ -16,6 +16,7 @@ import Monpanier from './Components/Page/Monpanier';
 import Configure_your from './Components/Page/Configure_your';
 
 import Testings from './Components/Page/Testings';
+import Dashboard from './Components/Page/Dashboard';
 function App() {
   return (
     <div className="App">
@@ -34,7 +35,8 @@ function App() {
         <Route path='/Monpanier' element={<Monpanier />}/>
         <Route path='/Configure_your' element={<Configure_your />} />
         <Route path='/Testings' element={<Testings /> } />
-       
+        <Route path='/Dashboard' element={<Dashboard />}/>
+        
       </Routes>
       {/* <Footer /> */}
 

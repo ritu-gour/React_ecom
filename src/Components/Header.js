@@ -31,10 +31,11 @@ const Head = () => {
                     </NavLink>
 
                     <div className='overflow-container'>
-                        <NavLink to="/InscriptionComme" style={{ fontSize: "17px" }}>
-                            Inscription Comme</NavLink> <span className="icon" >
-                            <i class="fa fa-bars" style={{ fontSize: "20px" }}>
+                    
+                    <NavLink to="/dashboard" style={{ fontSize: "17px"}}>Dashboard</NavLink><span className="icon" > <i class="fa fa-bars" style={{ fontSize: "20px" }}>
                             </i></span>
+                            <NavLink to="/InscriptionComme" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}> Inscription Comme</NavLink>
+                           
                         <NavLink to="/welcome" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Welcome</NavLink>
                         <NavLink to="/MerchantRegistration" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Merchant Registration</NavLink>
                         <NavLink to="/RegistrAlreadyCust" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Already Customer</NavLink>

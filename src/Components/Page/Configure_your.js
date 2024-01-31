@@ -457,7 +457,22 @@ const Configure_your = () => {
 
     }
 
-    
+    const [val, setVal] = useState([]);
+    const handleAdd = () => {
+        const abc = [...val, []]
+        setVal(abc)
+    }
+    const handleChange = (onChangeValue, i) => {
+        const inputdata = [...val]
+        inputdata[i] = onChangeValue.target.value;
+        setVal(inputdata)
+    }
+    const handleDelete = (i) => {
+        const deletVal = [...val]
+        deletVal.splice(i, 1)
+        setVal(deletVal)
+    }
+    console.log(val, "data-")
     return (
         <div>
             <div className="new-wrapper">
@@ -571,40 +586,75 @@ const Configure_your = () => {
                                     {
                                         showhide === '1' && (
                                             <div className="col-md-10 form-group my-5">
-                                                <p className="mb-3">Adresse entrepôt 1 : </p>
-                                                <Form>
-                                                   
+                                                <Row>
+                                                    <Col>
+                                                        <p className="mb-3">Adresse entrepôt 1 : </p>
+                                                    </Col>
+                                                    <Col>
+                                                        <Button onClick={() => handleAdd()} className="addbtn">+ Ajouter un entrepôt</Button>
+                                                    </Col>
 
-                                                   <Row>
-                                                    <Col>
-                                                    <Form.Group className="mb-3" controlId="formBasicEmail">
-                                                        
-                                                        <Form.Control type="text" placeholder="N° de voie et rue" className="rue" required />
-                                                        
-                                                    </Form.Group> 
-                                                    </Col>
-                                                    <Col>
-                                                    
-                                                    </Col>
-                                                   </Row>
-                                                   <Row>
-                                                    <Col>
-                                                    <Form.Group className="mb-3" controlId="formBasicEmail">
-                                                        
-                                                        <Form.Control type="text" placeholder="Code postal" className="rue" required/>
-                                                        
-                                                    </Form.Group> 
-                                                    </Col>
-                                                    <Col>
-                                                    <Form.Group className="mb-3" controlId="formBasicEmail">
-                                                        
-                                                        <Form.Control type="text" placeholder="Ville" readOnly/>
-                                                        
-                                                    </Form.Group> 
-                                                    </Col>
-                                                   </Row>
+                                                </Row>
+
+
+
+                                                <Form>
+                                                    {val.map((data, i) => {
+                                                        return (
+                                                            <div>
+                                                                <Stack direction="horizontal" gap={3}>
+                                                                    <div className="p-2"> <Form.Group className="mb-3" controlId="formBasicEmail">
+
+                                                                        <Form.Control type="text" placeholder="N° de voie et rue" className="rue" value={data} onChange={e => handleChange(e, i)} required />
+
+                                                                    </Form.Group></div>
+                                                                    <div className="p-2"> <Button onClick={() => handleDelete(i)} className="rembtn">Remove</Button></div>
+
+                                                                </Stack>
+                                                                <Stack direction="horizontal" gap={3}>
+                                                                    <div className="p-2"> <Form.Group className="mb-3" controlId="formBasicEmail">
+
+                                                                        <Form.Control type="text" placeholder="Code postal" className="rue" value={data} onChange={e => handleChange(e, i)} required />
+
+                                                                    </Form.Group></div>
+                                                                    <div className="p-2">  <Form.Group className="mb-3" controlId="formBasicEmail">
+
+                                                                        <Form.Control type="text" placeholder="Ville" className="rue1" value={data} onChange={e => handleChange(e, i)} required />
+
+                                                                    </Form.Group></div>
+
+                                                                </Stack>
+
+
+                                                            </div>
+                                                        )
+                                                    })}
+                                                    <Stack direction="horizontal" gap={3}>
+                                                        <div className="p-2"> <Form.Group className="mb-3" controlId="formBasicEmail">
+
+                                                            <Form.Control type="text" placeholder="N° de voie et rue" className="rue" required />
+
+                                                        </Form.Group></div>
+
+                                                    </Stack>
+                                                    <Stack direction="horizontal" gap={3}>
+                                                        <div className="p-2">  <Form.Group className="mb-3" controlId="formBasicEmail">
+
+                                                            <Form.Control type="text" placeholder="Code postal" className="rue" required />
+
+                                                        </Form.Group></div>
+
+                                                        <div className="p-2">   <Form.Group className="mb-3" controlId="formBasicEmail">
+
+                                                            <Form.Control type="text" placeholder="Ville" className="rue1" required />
+
+                                                        </Form.Group></div>
+
+                                                    </Stack>
+
+
                                                     <Button variant="" type="submit" className="btngh">
-                                                    Enregistrer l’adresse
+                                                        Enregistrer l’adresse
                                                     </Button>
                                                 </Form>
                                             </div>

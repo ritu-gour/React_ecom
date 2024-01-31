@@ -31,7 +31,7 @@ const Fleurs = () => {
                             <Col>
                             </Col>
                             <Col>
-                                <Nav className="justify-content-end bn" activeKey="" >
+                                <Nav className="justify-content-end bn88" activeKey="" >
                                     <Nav.Item>
                                         <Nav.Link href="/"><CiSearch className='icon99' />
                                         </Nav.Link>
