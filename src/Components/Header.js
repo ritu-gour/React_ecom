@@ -4,16 +4,17 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavLink } from "react-router-dom";
+import './Header.css'
 const Head = () => {
     return (
-        <div>
+        <div className="desktop">
             <Navbar className="bg-body-tertiary">
                 <Container>
                     <Navbar.Brand href="#home"></Navbar.Brand>
                     <Navbar.Toggle />
-                    <Navbar.Collapse className="justify-content-end" style={{marginTop:"0px"}}>
+                    <Navbar.Collapse className="justify-content-end" style={{ marginTop: "0px" }}>
                         <Navbar.Text>
-                        <div  id="google_translate_element" style={{ float: 'right' }}></div>
+                            <div id="google_translate_element" style={{ float: 'right' }}></div>
                         </Navbar.Text>
                     </Navbar.Collapse>
                 </Container>
@@ -31,20 +32,23 @@ const Head = () => {
                     </NavLink>
 
                     <div className='overflow-container'>
-                    
-                    <NavLink to="/dashboard" style={{ fontSize: "17px"}}>Dashboard</NavLink><span className="icon" > <i class="fa fa-bars" style={{ fontSize: "20px" }}>
-                            </i></span>
-                            <NavLink to="/InscriptionComme" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}> Inscription Comme</NavLink>
-                           
+
+                        <NavLink to="/dashboard" style={{ fontSize: "17px" }}>Dashboard</NavLink><span className="icon" > <i class="fa fa-bars" style={{ fontSize: "20px" }}>
+                        </i></span>
+                        <NavLink to="/InscriptionComme" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}> Inscription Comme</NavLink>
+
                         <NavLink to="/welcome" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Welcome</NavLink>
                         <NavLink to="/MerchantRegistration" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Merchant Registration</NavLink>
                         <NavLink to="/RegistrAlreadyCust" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Already Customer</NavLink>
                         <NavLink to="/Login" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Login</NavLink>
                         <NavLink to="/Carte" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Carte</NavLink>
                         <NavLink to="/Monpanier" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Mon Panir</NavLink>
-                        <NavLink to="/Configure_your" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px"}}> Configure your Maathena
-                        <br></br> store
- </NavLink>
+                        <NavLink to="/Configure_your" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}> Configure your Maathena
+                            <br></br> store
+                        </NavLink>
+                        <NavLink to="/Storeprofile" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}> Profil Boutique </NavLink>
+                        <NavLink to="/Shopitem" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}> Articles Boutique </NavLink>
+                        <NavLink to="/Demotest" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}> Demotest</NavLink>
                     </div>
 
 

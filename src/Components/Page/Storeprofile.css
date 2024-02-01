@@ -1,0 +1,533 @@
+.bvgr {
+    background: #f7fcf9;
+    padding: 80px 0px 0px 0px;
+}
+.profilecarder{
+    width: 960px !important;
+    border: 2px dashed black;
+    border-radius: 0px;
+    margin: 0px 0px 30px 0px;
+    background: #f7fcf9;
+    padding: 20px 0px 10px 20px;
+
+}
+.profilecard {
+    width: 904px !important;
+    border: 2px dashed black;
+    border-radius: 0px;
+    margin: 0px 0px 30px 0px;
+    background: #f7fcf9;
+}
+.profilecardnm{
+    width: 904px !important;
+    margin: 0px 0px -13px 0px;
+    
+}
+.adit{
+   background-color: #ffc309; 
+   padding: 6px;
+   font-size: 40px;
+   color: white;
+   border-radius:13px ;
+   margin-top: 0px;
+   margin: 20px 30px 0px 0px;
+  
+  
+}
+.profileimg {
+    width: 900px;
+
+}
+
+.profilecard1 {
+    width: 904px !important;
+    border: 2px dashed black;
+    border-radius: 0px;
+    margin: 50px 0px 30px 0px;
+    padding: 30px 40px 40px 40px;
+    background: #f7fcf9;
+}
+
+.Description {
+    color: #084442;
+    font-size: 27px;
+    font-weight: 700;
+
+}
+.profilecardnmn{
+    width: 904px !important;
+    margin: 0px 0px -55px 0px;
+    
+}
+.adit1{
+   background-color: #ffc309; 
+   padding: 6px;
+   font-size: 40px;
+   color: white;
+   border-radius:13px ;
+   margin-top: 0px;
+   margin: 20px 70px 0px 0px;
+  
+  
+}
+.Description0 {
+    color: #084442;
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+.Descriptionb {
+    color: #084442;
+    font-size: 27px;
+    font-weight: 700;
+    margin: 0px 0px 0px 50px;
+
+}
+
+.Description08 {
+    color: #084442;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.VOIR_LESPRODUITS {
+    background-color: #084442 !important;
+    border: none;
+    width: 200px;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 12px 20px 12px 20px;
+    margin-top: 30px;
+}
+
+.VOIR_LESPRODUITS:hover {
+    background-color: #ffc309 !important;
+    border: none;
+    width: 200px;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: black !important;
+    padding: 12px 20px 12px 20px;
+    margin-top: 30px;
+}
+
+.pro22 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70px;
+    margin-bottom: 10px;
+
+}
+.adit11{
+    background-color: #ffc309; 
+    padding: 6px;
+    font-size: 40px;
+    color: white;
+    border-radius:13px ;
+    margin-top: 0px;
+    margin: 80px 0px -50px 0px;
+   
+   
+ }
+.pro222 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80px;
+    margin-bottom: 3px;
+
+}
+
+.pro223 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+
+}
+
+.profilecard9 {
+    width: 904px !important;
+    /* border: 2px dashed black;
+    border-radius: 0px;
+  
+    /* padding: 30px 40px 40px 40px; */
+    margin: 0px 0px 30px 0px;
+    background: #f7fcf9;
+}
+
+.profilecards {
+    margin: 0px 0px 30px 0px !important;
+    border: 2px dashed black !important;
+    border-radius: 0px;
+    background: #f7fcf9;
+}
+
+.profilecardsb {
+    margin: 0px 10px 30px 10px !important;
+    border: 2px dashed black !important;
+    border-radius: 0px;
+    background: #f7fcf9;
+}
+
+.Découvrir {
+    background-color: #B9E6C9 !important;
+    color: black !important;
+    border: 0px !important;
+    padding: 12px 30px 12px 30px !important;
+    margin: 20px 0px 20px 0px;
+}
+
+.Découvrir:hover {
+    background-color: #B9E6C9 !important;
+    color: black !important;
+    border: 0px !important;
+    padding: 12px 30px 12px 30px !important;
+    margin: 20px 0px 20px 0px;
+}
+
+.cardimgsu {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 240px;
+
+}
+
+.styley {
+    padding: 0px 90px 0px 90px;
+    margin-top: -10px;
+}
+
+.profie {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50px;
+    margin-bottom: 7px;
+    margin-top: -20px;
+
+}
+
+.backgr {
+    background-color: #ffc309;
+    margin-top: 40px;
+    padding: 0px 0px 20px 0px;
+
+}
+
+.avisdes {
+    border: none;
+    border-radius: 0px;
+    background-color: white;
+}
+
+.avisdas {
+    padding: 20px 10px 10px 10px;
+}
+
+.map901 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 200px;
+    margin-top: -20px;
+}
+
+.map902 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 300px;
+    margin-top: 10px;
+    height: 150px;
+}
+button.bn9098 {
+    background: transparent;
+}
+
+.profilecardp{
+    width: 904px !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 0px;
+    margin: 0px 0px 30px 0px;
+    padding: 20px 20px 20px 20px;
+    border: none !important;
+    background: #f7fcf9;
+}
+.fornlab{
+    margin: 0px 0px 0px 35px;
+}
+.onclick{
+    background-color: #ffc10903;
+    padding: 6px 10px 6px 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 13px;
+    margin-top: 0px;
+    margin: -20px 0px 0px 240px;
+}
+.row00{
+    display: flex;
+}
+@media (max-width: 480px) {
+    button.VOIR_LESPRODUITS.b.btn.btn-primary {
+        margin: 20px 0px 20px 0px;
+    }
+    
+    
+    .profilecardp{
+        width: 100% !important;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border-radius: 0px;
+        margin: 0px 0px 30px 0px;
+        padding: 20px 20px 20px 20px;
+        border: none !important;
+        background: #f7fcf9;
+    }
+    .fornlab{
+        margin: 0px 0px 0px 0px;
+    }
+    .onclick{
+        background-color: #ffc10903;
+        padding: 6px 10px 6px 10px;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        border: none;
+        border-radius: 13px;
+        margin-top: 0px;
+        margin: -20px 0px 0px 00px;
+    }
+    .profileimg {
+        width: 100% !important;
+    }
+
+    .profilecard {
+        width: 100% !important;
+
+        margin: 30px 0px 30px 0px !important;
+        background: #f7fcf9;
+    }
+
+    .profilecard1 {
+        width: 100% !important;
+
+        margin: 0px 0px 30px 0px;
+        padding: 30px 10px 40px 10px !important;
+        background: #f7fcf9;
+    }
+
+    .profilecard9 {
+        width: 100% !important;
+        margin: 0px 0px 30px 0px;
+        background: #f7fcf9;
+    }
+
+    .pro22 {
+
+        width: 40px !important;
+        margin-bottom: 10px;
+    }
+
+    .pro222 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 50px !important;
+        margin-bottom: 3px;
+    }
+
+    .pro223 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 40px !important;
+        margin-bottom: 7px;
+        margin-top: 10px;
+    }
+
+    .Descriptionb {
+
+        margin: 0px 0px 20px 0px !important;
+    }
+
+    .profilecardsb {
+        margin: 0px 0px 30px 0px !important;
+
+    }
+
+    .styley {
+        padding: 0px 10px 40px 10px !important;
+        margin-top: -10px;
+    }
+
+    .row34.row {
+        display: grid !important;
+    }
+
+    .avisdes {
+
+        margin: 0px 0px 30px 0px !important;
+    }
+
+    .map901 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 200px;
+        margin-top: 20px !important;
+    }
+    .profilecardnm{
+        width: 100% !important;
+        margin: 0px 0px -13px 0px;
+        
+    }
+    .adit {
+        background-color: #ffc309;
+        padding: 6px;
+        font-size: 40px;
+        color: white;
+        border-radius: 13px;
+        margin-top: 0px;
+        margin: 20px 30px 0px 0px;
+       
+    }
+    .profilecardnmn{
+        width: 100% !important;
+        margin: 0px 0px -55px 0px;
+        
+    }
+    .adit1{
+       background-color: #ffc309; 
+       padding: 6px;
+       font-size: 40px;
+       color: white;
+       border-radius:13px ;
+       margin-top: 0px;
+       margin: 20px 20px 0px 0px !important;
+      
+      
+    }
+}
+
+@media (max-width: 768px) {
+    .profileimg {
+        width: 100% !important;
+    }
+
+    .profilecard {
+        width: 100% !important;
+
+        margin: 30px 0px 30px 0px !important;
+        background: #f7fcf9;
+    }
+
+    .profilecard1 {
+        width: 100% !important;
+
+        margin: 0px 0px 30px 0px;
+        padding: 30px 10px 40px 10px !important;
+        background: #f7fcf9;
+    }
+
+    .profilecard9 {
+        width: 100% !important;
+        margin: 0px 0px 30px 0px;
+        background: #f7fcf9;
+    }
+
+    .pro22 {
+
+        width: 40px !important;
+        margin-bottom: 10px;
+    }
+
+    .pro222 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 50px !important;
+        margin-bottom: 3px;
+    }
+
+    .pro223 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 40px !important;
+        margin-bottom: 7px;
+        margin-top: 10px;
+    }
+
+    .Descriptionb {
+
+        margin: 0px 0px 20px 0px !important;
+    }
+
+    .profilecardsb {
+        margin: 0px 0px 30px 0px !important;
+
+    }
+
+    .styley {
+        padding: 0px 10px 40px 10px !important;
+        margin-top: -10px;
+    }
+
+    .row34.row {
+        display: grid !important;
+    }
+
+    .avisdes {
+
+        margin: 0px 0px 30px 0px !important;
+    }
+
+    .map901 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 200px;
+        margin-top: 20px !important;
+    }
+    .profilecardnm{
+        width: 100% !important;
+        margin: 0px 0px -13px 0px;
+        
+    }
+    .adit {
+        background-color: #ffc309;
+        padding: 6px;
+        font-size: 40px;
+        color: white;
+        border-radius: 13px;
+        margin-top: 0px;
+        margin: 20px 30px 0px 0px;
+       
+    }
+    .profilecardnmn{
+        width: 100% !important;
+        margin: 0px 0px -55px 0px;
+        
+    }
+    .adit1{
+       background-color: #ffc309; 
+       padding: 6px;
+       font-size: 40px;
+       color: white;
+       border-radius:13px ;
+       margin-top: 0px;
+       margin: 20px 20px 0px 0px !important;
+      
+      
+    }
+}

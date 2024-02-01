@@ -15,8 +15,10 @@ import Carte from './Components/Page/Carte';
 import Monpanier from './Components/Page/Monpanier';
 import Configure_your from './Components/Page/Configure_your';
 
-import Testings from './Components/Page/Testings';
+import Shopitem from './Components/Page/Shopitem';
 import Dashboard from './Components/Page/Dashboard';
+import Storeprofile from './Components/Page/Storeprofile';
+import Demotest from './Components/Page/Demotest';
 function App() {
   return (
     <div className="App">
@@ -34,8 +36,10 @@ function App() {
         <Route path='/carte' element={<Carte />}/>
         <Route path='/Monpanier' element={<Monpanier />}/>
         <Route path='/Configure_your' element={<Configure_your />} />
-        <Route path='/Testings' element={<Testings /> } />
+        <Route path='/Shopitem' element={<Shopitem /> } />
         <Route path='/Dashboard' element={<Dashboard />}/>
+        <Route path='/Storeprofile' element={<Storeprofile />} />
+        <Route Path='/Demotest' element={<Demotest />} />
         
       </Routes>
       {/* <Footer /> */}

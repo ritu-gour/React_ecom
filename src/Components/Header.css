@@ -1,0 +1,26 @@
+
+@media (max-width: 480px) {
+    .desktop{
+      display: none !important;
+    }
+    .new-wrapper {
+        position: absolute;
+        left: 0px !important;
+        width: 100% !important;
+        /* width: calc(100% - 50px); */
+        transition: transform .45s cubic-bezier(0.77, 0, 0.175, 1);
+    }
+}
+
+@media (max-width: 768px) {
+    .desktop{
+        display: none !important;
+      }
+      .new-wrapper {
+        position: absolute;
+        left: 0px !important;
+        width: 100% !important;
+        /* width: calc(100% - 50px); */
+        transition: transform .45s cubic-bezier(0.77, 0, 0.175, 1);
+    }
+    }

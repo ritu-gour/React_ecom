@@ -161,7 +161,7 @@ const Dashboard = () => {
                     <img src="./Component2.png" alt="Picture" />
 
                     <div className="overlay">
-                        <Row>
+                        <Row className='displayb'>
                             <Col>
                             </Col>
                             <Col>
@@ -216,7 +216,7 @@ const Dashboard = () => {
                                                     {/* <GoDotFill className='godot'/> */}
                                                 </Col>
                                                 <Col sm={7}>
-                                                    <p className='text-center'>Vous avez atteint</p>
+                                                    <p className='text-center vcx'>Vous avez atteint</p>
                                                     <h4 className='text-center' style={{ fontWeight: "600" }}>70 %</h4>
                                                     <p className='text-center'>de votre objectif mensuel</p>
                                                 </Col>
