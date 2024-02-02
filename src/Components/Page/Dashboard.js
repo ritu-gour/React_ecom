@@ -256,15 +256,11 @@ const Dashboard = () => {
                                         <Row className='mb-3'>
                                             <Col sm={3}><GoDotFill style={{ color: "#084442", fontSize: "25px" }} /> 2023</Col>
                                             <Col sm={8}> <GoDotFill style={{ color: "#B9E6C9", fontSize: "25px" }} /> 2022</Col>
-
                                         </Row>
                                         <Bar data={data2} />
                                     </Card.Body>
-
                                 </Card>
-
                                 <Card className="cardchiffer229">
-
                                     <Card.Body>
                                     <h2 className='chiffre'>Dernières ventes</h2>
                                 <DataTable
@@ -282,17 +278,12 @@ const Dashboard = () => {
                                             className="w-25 form-control ser"
                                             placeholder="Search..."
                                             value={search}
-                                            onChange={(e) => SetSearch(e.target.value)}
-                                        />
+                                            onChange={(e) => SetSearch(e.target.value)}  />
                                     }
-                                    subHeaderAlign="right"
-                                />
+                                    subHeaderAlign="right" />
                                     </Card.Body>
-
-                                </Card>
-                               
+                                </Card>                              
                             </Col>
-
                         </Row>
                     </Container>
                 </div>

@@ -2,6 +2,7 @@
 import './App.css';
 // import Footer from './Components/Home/Bottom1';
 import Info_inscription_commerçants from './Components/Home/Info_inscription_commerçants';
+import Infulur from './Components/Home/Infulur'
 import Header from './Components/Header';
 import { Routes, Route } from "react-router-dom";
 import InscriptionComme from './Components/InscriptionComme/InscriptionComme'; 
@@ -14,11 +15,12 @@ import Fleurs from './Components/Page/Fleurs';
 import Carte from './Components/Page/Carte';
 import Monpanier from './Components/Page/Monpanier';
 import Configure_your from './Components/Page/Configure_your';
-
+import Updatepro from './Components/Page/Updatepro'
 import Shopitem from './Components/Page/Shopitem';
 import Dashboard from './Components/Page/Dashboard';
 import Storeprofile from './Components/Page/Storeprofile';
-import Demotest from './Components/Page/Demotest';
+import Add_an_item from './Components/Page/Add_an_item';
+
 function App() {
   return (
     <div className="App">
@@ -39,7 +41,12 @@ function App() {
         <Route path='/Shopitem' element={<Shopitem /> } />
         <Route path='/Dashboard' element={<Dashboard />}/>
         <Route path='/Storeprofile' element={<Storeprofile />} />
-        <Route Path='/Demotest' element={<Demotest />} />
+        <Route path='/Infulur' element={<Infulur/>} />
+        <Route path='/Updatepro' element={<Updatepro />} />
+        <Route path='/Add_an_item' element={<Add_an_item /> } />
+       
+        {/* <Route Path='/Demotest' element={<Demotest />} /> */}
+        
         
       </Routes>
       {/* <Footer /> */}

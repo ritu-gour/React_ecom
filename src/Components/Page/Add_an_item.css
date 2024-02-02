@@ -1,0 +1,128 @@
+.FormControl22 {
+    box-shadow: rgba(173, 177, 182, 0) 0px 8px 24px;
+    border: 1px solid rgb(189, 189, 189);
+}
+.cardpad{
+    box-shadow: rgba(173, 177, 182, 0.329) 0px 8px 24px;
+    padding: 30px 30px 30px 30px;
+    border-radius: 0px;
+    border: none;
+    margin: 50px 0px 120px 0px ;
+}
+
+
+
+.delet{
+    background-color: transparent;
+    border: none !important;
+   
+    /* margin: 0px 0px -20px 100px; */
+  }
+  
+  
+  .error {
+    text-align: center;
+     color: red;
+  }
+  
+  .error span {
+    color: red;
+  }
+  .acrdi{
+    border: none;
+    
+  }
+
+
+  .custom-file-drop-area1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: grid;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: 2px dashed #3e3e3e;
+    height: 110px;
+    border-radius: 15px;
+    width: 130px;
+    cursor: -webkit-grab;
+    cursor: grab;
+    margin-top: 30px;
+
+}
+.magign{
+padding: 0px 0px 20px 30px;
+border-radius: 0px;
+}
+.magign2{
+    padding: 0px 30px 20px 30px;
+    border-radius: 0px;
+    }
+.bigimg1 {
+    font-size: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 0px;
+}
+
+.custom-file-drop-area1 label {
+    color: #737373;
+
+    text-align: center;
+    font-family: Manrope;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.custom-file-drop-area1 input {
+    display: none;
+    width: 0px;
+    height: 0px;
+    background-color: transparent;
+    border: none;
+}
+
+
+.AJOUTER {
+    background-color: #084442 !important;
+    color: #ffffff !important;
+
+    
+    font-family: "Work Sans";
+    font-size: 13.515px;
+    font-style: normal;
+    font-weight: 600;
+    border: none !important;
+padding: 12px 30px 12px 30px !important;
+border-radius: 0px !important;
+margin-left: auto !important;
+margin-right: auto !important;
+display: block !important;
+margin-top: 40px !important;
+}
+.AJOUTER:hover{
+    background-color: #FFC309 !important;
+    color: #084442 !important;
+
+    font-family: "Work Sans";
+    font-size: 13.515px;
+    font-style: normal;
+    font-weight: 600;
+    border: none !important;
+padding: 12px 30px 12px 30px !important;
+border-radius: 0px !important;
+margin-left: auto !important;
+margin-right: auto !important;
+display: block !important;
+margin-top: 40px !important;
+}
+.bn0m{
+    width: 500px;
+}
