@@ -49,7 +49,10 @@ const Head = () => {
                         <NavLink to="/Storeprofile" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}> Profil Boutique </NavLink>
                         <NavLink to="/Shopitem" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}> Articles Boutique </NavLink>
                         <NavLink to="/Add_an_item" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Ajouter un article</NavLink>
-
+                        <NavLink to="/Sales" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Ventes</NavLink>
+                        <NavLink to="/Recommendations" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Recommandations</NavLink>
+                        <NavLink to="/Tradedata" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>  Tradedata</NavLink>
+                        <NavLink to="/Recommandation" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>   Recommandation</NavLink>
                     </div>
 
 

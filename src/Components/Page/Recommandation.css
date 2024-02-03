@@ -1,0 +1,181 @@
+:root {
+    --graph-color: #B9E6C9;
+}
+
+.poll-bar-graph {
+    --percent: calc(100 * var(--amount) / var(--total));
+    margin-bottom: 0.5rem;
+    display: block;
+    position: relative;
+    height: 1em;
+    width: 1000px;
+    border-left: 2px solid var(--accent-color);
+    background-image: linear-gradient(to right, var(--graph-color) calc(var(--percent) * 1% - 2px), transparent calc(var(--percent) * 1% - 2px));
+}
+
+.poll-bar-graph::after {
+    counter-reset: percent var(--percent);
+    content: counter(percent) '%';
+    position: absolute;
+    left: calc(var(--percent) * 1% + 2px);
+    font-weight: var(--font-weight-bold);
+}
+
+.age {
+    --amount: 2;
+    --total: 8;
+
+}
+
+.age1 {
+
+    --amount: 3;
+    --total: 9.1;
+
+}
+
+.age2 {
+
+    --amount: 2.2;
+    --total: 8;
+}
+
+.age3 {
+
+    --amount: 2;
+    --total: 8;
+}
+
+.age4 {
+
+    --amount: 2;
+    --total: 10;
+}
+
+.age6 {
+
+    --amount: 8.3;
+    --total: 10;
+}
+
+
+.age7 {
+
+    --amount: 1;
+    --total: 10;
+}
+
+
+.age8 {
+
+    --amount: 1.4;
+    --total:20;
+}
+input.rang5.range-slider.range-slider--primary {
+    border-radius: 0px !important;
+    padding: 0px;
+    height: 15px;
+}
+
+.range-slider__tooltip.range-slider__tooltip--auto.range-slider__tooltip--bottom {
+    display: none;
+}
+
+input[type=range].range-slider {
+
+
+    /* font: 1rem/1 arial, sans-serif; */
+    color: #ced4da !important;
+    height: 20px !important;
+    background-clip: padding-box;
+    background: #ced4da;
+}
+
+.rang7 {
+    box-shadow: rgba(100, 100, 111, 0) 0px 7px 29px 0px;
+    background-color: transparent;
+    margin: 15px -40px 0px -20px ;
+}
+
+.grap2{
+    border: 0px;
+    border-radius: 0px ;
+    padding: 30px;
+    height: 340px;
+    margin: 0px 0px 40px 0px;
+
+}
+.grap1{
+    height: 340px;
+    border: 0px;
+    border-radius: 0px ;
+    padding: 30px 30px 50px 30px;
+    margin: 0px 0px 40px 0px;
+
+}
+.grap4{
+    /* height: 340px; */
+    border: 0px;
+    border-radius: 0px ;
+    padding: 30px 30px 50px 30px;
+    margin: 0px 0px 40px 0px;
+
+}
+
+.number5{
+    border: 0px;
+    border-radius: 0px ;
+    padding: 30px;
+   
+    margin: 0px 0px 40px 0px;
+
+}
+.usert{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 90px;
+    color: #084442;
+}
+.numbb{
+font-size: 18px;
+margin: 20px 20px 0px 30px;
+color: #084442;
+}
+.uernum{
+    font-size: 25px;
+    margin-top: -30px;
+    color: #084442;
+
+}
+.encou{
+    padding: 0px 80px 0px 10px;
+}
+.drop7{
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+}
+.faar{
+    font-size: 30px;
+    margin: 0px 0px 0px 0px;
+    color: #B9E6C9;
+}
+.star5{
+    color: #FFC309;
+    font-size: 23px;
+}
+.fauser{
+font-size: 30px;
+color: #B9E6C9;
+}
+.fausers{
+padding: 0px 200px 0px 0px;
+}
+.grap40{
+    border: 0px;
+    border-radius: 0px ;
+    padding: 30px 30px 50px 30px;
+    margin: 0px 0px 40px 0px; 
+    background-color:  #B9E6C9;
+}

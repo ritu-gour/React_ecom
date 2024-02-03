@@ -126,3 +126,34 @@ margin-top: 40px !important;
 .bn0m{
     width: 500px;
 }
+@media (max-width: 480px) {
+    
+
+
+button.CONNECTERMONSITE.btn.btn-primary {
+    width: 100% !important;
+    /* margin: 10px; */
+    margin: 10px 0px 10px 0px !important;
+}
+.bn0m {
+    width: 100% !important;
+}
+.hstack {
+    display: grid !important;
+   
+}
+
+}
+
+@media (max-width: 768px) {
+    button.CONNECTERMONSITE.btn.btn-primary {
+        width: 100% !important;
+        /* margin: 10px; */
+        margin: 10px 0px 10px 0px !important;
+    }
+    .bn0m {
+        width: 100% !important;
+    }
+    
+}
+

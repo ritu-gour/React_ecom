@@ -99,24 +99,24 @@ const Add_an_item = () => {
                                                 <Col sm={10}>
                                                     <Form.Group className="mb-3" controlId="formBasicEmail">
                                                         <Form.Label className="">Nom du produit</Form.Label>
-                                                        <Form.Control className="FormControl22 bn0m" type="text" />
+                                                        <Form.Control className="FormControl22 bn0m" type="text" required/>
 
                                                     </Form.Group>
                                                     <Form.Group className="mb-3" controlId="formBasicEmail">
                                                         <Form.Label className="">Référence</Form.Label>
-                                                        <Form.Control className="FormControl22 bn0m" type="text" maxLength={100} required />
+                                                        <Form.Control className="FormControl22 bn0m" type="text"  required />
 
                                                     </Form.Group>
                                                     <Form.Group className="mb-3" controlId="formBasicEmail">
                                                         <Form.Label className="">Marque</Form.Label>
-                                                        <Form.Control className="FormControl22 bn0m" type="text" maxLength={100} required />
+                                                        <Form.Control className="FormControl22 bn0m" type="text"  required />
 
                                                     </Form.Group>
                                                 </Col >
                                                 <Col sm={2}>
                                                     <Form.Group className="mb-3" controlId="formBasicEmail">
                                                         <Form.Label className="">ID</Form.Label>
-                                                        <Form.Control className="FormControl22" type="text" maxLength={100} required />
+                                                        <Form.Control className="FormControl22" type="text"  required />
 
                                                     </Form.Group>
                                                 </Col>
@@ -125,26 +125,26 @@ const Add_an_item = () => {
 
                                             <Form.Group className="mb-3" controlId="formBasicEmail">
                                                 <Form.Label className="">Résumé</Form.Label>
-                                                <Form.Control className="FormControl22" type="text" maxLength={100} required />
+                                                <Form.Control className="FormControl22" type="text"  required />
 
                                             </Form.Group>
 
                                             <Form.Label className="">Description</Form.Label>
                                             <Form.Control className="FormControl22" as="textarea" rows={3} style={{ height: "100px" }}
-                                                maxLength={100} required />
+                                                 required  maxLength={400} />
 
                                             <Row>
                                                 <Col sm={6}>
                                                     <Form.Group className="mb-3" controlId="formBasicEmail">
                                                         <Form.Label className="">Prix de vente TTC</Form.Label>
-                                                        <Form.Control className="FormControl22" type="number" maxLength={100} required />
+                                                        <Form.Control className="FormControl22" type="number"  required />
 
                                                     </Form.Group>
                                                 </Col>
                                                 <Col sm={6}>
                                                     <Form.Group className="mb-3" controlId="formBasicEmail">
                                                         <Form.Label className="">Promotion</Form.Label>
-                                                        <Form.Control className="FormControl22" type="text" maxLength={100} required />
+                                                        <Form.Control className="FormControl22" type="text"  required />
 
                                                     </Form.Group>
                                                 </Col>
@@ -153,12 +153,12 @@ const Add_an_item = () => {
                                                 <Col sm={6}>
                                                     <Form.Group className="mb-3" controlId="formBasicEmail">
                                                         <Form.Label className="">Quantité</Form.Label>
-                                                        <Form.Control className="FormControl22" type="number" maxLength={100} required />
+                                                        <Form.Control className="FormControl22" type="number"  required />
 
                                                     </Form.Group>
                                                     <Form.Group className="mb-3" controlId="formBasicEmail">
                                                         <Form.Label className="">Catégorie</Form.Label>
-                                                        <Form.Control className="FormControl22" type="text" maxLength={100} required />
+                                                        <Form.Control className="FormControl22" type="text"  required />
 
                                                     </Form.Group>
 
@@ -266,17 +266,17 @@ const Add_an_item = () => {
 
                                                     <Form.Group className="mb-3" controlId="formBasicEmail">
 
-                                                        <Form.Control className="FormControl22" type="number" placeholder="Longueur" maxLength={100} required />
+                                                        <Form.Control className="FormControl22" type="number" placeholder="Longueur"  required />
 
                                                     </Form.Group></div>
                                                 <div className=""> <Form.Group className="mb-3" controlId="formBasicEmail" >
 
-                                                    <Form.Control className="FormControl22" type="number" maxLength={100} placeholder="Largeur" required />
+                                                    <Form.Control className="FormControl22" type="number"  placeholder="Largeur" required />
 
                                                 </Form.Group></div>
                                                 <div className=""> <Form.Group className="mb-3" controlId="formBasicEmail">
 
-                                                    <Form.Control className="FormControl22" type="number" maxLength={100} placeholder="Profondeur" required />
+                                                    <Form.Control className="FormControl22" type="number"  placeholder="Profondeur" required />
 
                                                 </Form.Group></div>
                                             </Stack>
@@ -293,12 +293,12 @@ const Add_an_item = () => {
 
                                                     <Form.Group className="mb-3" controlId="formBasicEmail">
                                                         <Form.Label className="">Poids</Form.Label>
-                                                        <Form.Control className="FormControl22" type="number" maxLength={100} required />
+                                                        <Form.Control className="FormControl22" type="number"  required />
 
                                                     </Form.Group>
                                                 </div>
                                             </Stack>
-                                            <Stack direction="horizontal" gap={3}>
+                                            <Stack direction="horizontal" gap={3} >
 
                                                 <div className="">
                                                     <Form.Label className="">Labels</Form.Label>
@@ -319,18 +319,18 @@ const Add_an_item = () => {
 
                                                     <Form.Group className="mb-3" controlId="formBasicEmail">
                                                    
-                                                        <Form.Control className="FormControl22" type="text" placeholder="Couleurs" maxLength={100} required />
+                                                        <Form.Control className="FormControl22" type="text" placeholder="Couleurs"  required />
 
                                                     </Form.Group></div>
                                                 <div className=""> 
                                                 <Form.Group className="mb-3" controlId="formBasicEmail" >
 
-                                                    <Form.Control className="FormControl22" type="number" maxLength={100} placeholder="Tailles" required />
+                                                    <Form.Control className="FormControl22" type="number"  placeholder="Tailles" required />
 
                                                 </Form.Group></div>
                                                 <div className=""> <Form.Group className="mb-3" controlId="formBasicEmail">
 
-                                                    <Form.Control className="FormControl22" type="text" maxLength={100} placeholder="H / F" required />
+                                                    <Form.Control className="FormControl22" type="text"  placeholder="H / F" required />
 
                                                 </Form.Group></div>
                                             </Stack>

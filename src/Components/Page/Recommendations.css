@@ -1,0 +1,156 @@
+.vbbcard{
+  
+    margin: 0px 0px 0px 0px;
+    background-color:#084442 !important ;
+    border: 0px;
+    border-radius: 0px;
+    color: white;
+    padding: 40px 10px 10px 10px;
+
+}
+.bbbbbm{
+    border: 0px;
+    border-radius: 0px;
+    padding: 20px 30px 30px 30px ;
+}
+
+.vbbcard2{
+  
+    margin: 0px 0px 0px 0px;
+    background-color:#eaeaea !important ;
+    border: 0px;
+    border-radius: 0px;
+    color: rgb(0, 0, 0);
+    padding: 10px 10px 0px 10px;
+
+}
+.bnpro{
+    margin: 30px 50px 20px 50px;
+}
+.bsmin{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 70px;
+    color: #084442 !important ;
+   margin-top: 20px;
+   margin-bottom: 20px;
+
+}
+.cardbsmin{
+    border-radius: 0px;
+    border: 0px;
+
+}
+.mdout{
+    font-size: 36px;
+}
+.nosconsiel{
+    margin: 0px 0px 0px 20px;
+}
+.accord5{
+    background-color: 
+    #B9E6C9;
+    border-radius: 0px !important;
+    border: none !important;
+    margin: 30px 0px 0px 0px;
+}
+.accord5b{
+    background-color: 
+    #B9E6C9 !important;
+    border-radius: 0px !important;
+    border: none !important;
+    margin: 30px 0px 0px 0px;
+}
+/* .accordion-button {
+    background-color: 
+    #B9E6C9 !important;
+    border-radius: 0px !important;
+    border: none !important;
+} */
+
+.parcir{
+    /* background-color: red;
+    border-radius: 30px; */
+}
+@property --num {
+    syntax: '<integer>';
+    inherits: true;
+    initial-value: 0;
+  }
+  
+  .counter1::before {
+    counter-reset: my-counter var(--num);
+    content: counter(my-counter);
+    animation: count1 10s ease-in-out infinite alternate;
+  }
+  .counter1{
+  font-size:17px;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  padding: 14px 14px 14px 14px;
+  border-radius: 100px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin:0px 0px 0px 40px ;
+
+  }
+  @keyframes count1 {
+    to { --num: 45; }
+  }
+  
+.marg89{
+    margin-top: -13px;
+}
+.mou{
+    margin-top: 140px;
+}
+  /*-------------------------------------------*/
+  @property --num1 {
+    syntax: '<integer>';
+    inherits: true;
+    initial-value: 0;
+  }
+  
+  .counter2::before {
+    counter-reset: my-counter var(--num1);
+    content: counter(my-counter);
+    animation: count2 10s ease-in-out infinite alternate;
+  }
+  .counter2{
+    font-size:20px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    padding: 17px 14px 17px 14px;
+    border-radius: 100px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   margin:-70px 0px 0px 0px ;
+    
+  }
+  @keyframes count2 {
+    to { --num1: 57; }
+  }
+
+  .modifie{
+background-color: #084442 !important;
+color: #ffffff !important ;
+margin-left: auto !important;
+margin-right: auto !important;
+display: block !important;
+border-radius: 0px !important;
+border: none!important;
+padding: 12px 30px 12px 30px !important;
+  }
+.modifiee{
+    background-color: #FFC309;
+    border: none;
+    border-radius: 0px;
+    padding: 50px;
+    margin: 0px 60px 0px 60px;
+}
+.pasexv{
+    font-size: 20px !important;
+}
