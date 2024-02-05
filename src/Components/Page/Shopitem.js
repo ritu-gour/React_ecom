@@ -21,14 +21,56 @@ import './Shopitem.css'
 const Shopitem = () => {
 
 
-  const itemsPerPage = 8; // Change this to the desired number of items per page
-  const [currentPage, setCurrentPage] = useState(1);
+  // const itemsPerPage = 8; // Change this to the desired number of items per page
+  // const [currentPage, setCurrentPage] = useState(1);
   const [searchTitle, setSearchTitle] = useState('');
 
   const [data, setData] = useState([]);
   console.log('data1', data);
   const [search, SetSearch] = useState('');
   const [filter, setFilter] = useState([]);
+
+
+
+
+
+  //------------------------------------
+
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage] = useState(4); // Number of cards per page
+  const [searchTerm, setSearchTerm] = useState('');
+  const [filterValue, setFilterValue] = useState('');
+   const [priceFilter, setPriceFilter] = useState('');
+
+  // Filter and search logic
+  const filteredData = data.filter((value) =>
+    value.title.toLowerCase().includes(searchTerm.toLowerCase()) &&
+    (filterValue === '' || value.category === filterValue)
+  );
+
+  // Pagination logic
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const paginatedData = filteredData.slice(indexOfFirstItem, indexOfLastItem);
+
+  // Change page
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
+  // Unique categories for filter dropdown
+  const uniqueCategories = [...new Set(data.map(item => item.category))];
+
+
+  //-------------------------
+
+
+
+
+
+
+
+
+
+
 
   const getProduct = async () => {
     try {
@@ -45,7 +87,7 @@ const Shopitem = () => {
   }, []);
 
   ///////morning  code
-  const filteredData = data.filter(value => value.category.toLowerCase().includes(searchTitle.toLowerCase()));
+  // const filteredData = data.filter(value => value.category.toLowerCase().includes(searchTitle.toLowerCase()));
 
   // Calculate the index range for the current page
   const startIndex = (currentPage - 1) * itemsPerPage;
@@ -53,7 +95,7 @@ const Shopitem = () => {
 
 
   // Slice the data based on the calculated index range
-  const paginatedData = filteredData.slice(startIndex, endIndex);
+  // const paginatedData = filteredData.slice(startIndex, endIndex);
 
 
 
@@ -83,6 +125,12 @@ const Shopitem = () => {
     link.click();
     document.body.removeChild(link);
   };
+
+
+
+
+
+
 
 
   return (
@@ -145,7 +193,7 @@ const Shopitem = () => {
 
 
                   <Card className="profilecardmapd">
-                    <Stack direction="horizontal" gap={3}  className='row56'>
+                    <Stack direction="horizontal" gap={3} className='row56'>
                       <div className="p-2"><p style={{ color: "white" }}>Vous avez déjà une boutique en ligne (Prestashop ou autre) ? </p></div>
                       <div className="p-2 ms-auto b">
                         <Button className='CONNECTERMONSITE'>CONNECTER MON SITE</Button>
@@ -164,9 +212,9 @@ const Shopitem = () => {
                         <Row>
                           <Col> <Form.Control
                             type="text"
-                            placeholder="Recherche "
-                            // value={searchTitle}
-                            onChange={(e) => handleTitleChange(e.target.value)} className='reacherch56'
+                            placeholder="Search by title"
+                            value={searchTerm}
+                            onChange={(e) => setSearchTerm(e.target.value)} className='reacherch56'
                           /></Col>
                           <Col>
                             <CiSearch className='reacherch561' />
@@ -180,29 +228,69 @@ const Shopitem = () => {
                     <Stack direction="horizontal" gap={3} className='row56'>
                       <div className="p-2"><h3 className='Description mb-4'>Mes articles</h3></div>
                       <div className="p-2 ms-auto"></div>
-                      <div className="p-2"><Dropdown>
-                        <Dropdown.Toggle variant="" id="dropdown-basic" className='filter45'>
-                          Filtrer par
-                        </Dropdown.Toggle>
-
-                        <Dropdown.Menu>
-                          {data.map((value) => {
-                            return (
-                              <Dropdown.Item key={value.id} onClick={() => handleTitleChange(value.category)}>{value.category}</Dropdown.Item>
-                            )
-                          })
-
-                          }
+                      <div className="p-2">
 
 
-                        </Dropdown.Menu>
-                      </Dropdown></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        {/* <Form.Group controlId="filterDropdown">
+                          <Form.Label> Filtrer par</Form.Label>
+                          <Form.Control
+                            as="select"
+                            value={filterValue}
+                            onChange={(e) => setFilterValue(e.target.value)}
+                          >
+                            <option value="">All Categories</option>
+                            {uniqueCategories.map((category, index) => (
+                              <option key={index} value={category}>
+                                {category}
+                              </option>
+                            ))}
+                          </Form.Control>
+                        </Form.Group> */}
+                        
+                        <Dropdown>
+                          <Dropdown.Toggle variant="" id="dropdown-basic" className='filter45'>
+                            Filtrer par
+                          </Dropdown.Toggle>
+
+                          <Dropdown.Menu>
+                            <Dropdown.Item onClick={() => setFilterValue('')}>All Categories</Dropdown.Item>
+                            {uniqueCategories.map((category, index) => (
+                              <Dropdown.Item key={index} onClick={() => setFilterValue(category)}>
+                                {category}
+                              </Dropdown.Item>
+                            ))}
+                          </Dropdown.Menu>
+                        </Dropdown>
+
+                      </div>
                     </Stack>
+
+
+
+
+
+                    {/* Filter dropdown */}
+
 
                     <Row className='mbnvc'>
 
                       {paginatedData.map((value) => {
-                        const descriptionLength = value.description.length;
+                       
                         return (
                           <Col key={value.id} sm={3}>
                             <Card className='cardheigth'>
@@ -218,17 +306,17 @@ const Shopitem = () => {
                                   </Card.Text>
                                   <h5>{value.price}</h5>
                                 </div>
-                               
+
                                 {/* <Button variant="primary">Go somewhere</Button> */}
                               </Card.Body>
                               <div className="profilecardnmn " >
-                                            <Button className="bn9098"  style={{  border: "none" }} href='/Updatepro'>
-                                                <FaRegEdit className='adit1 bnnnn' />
-                                            </Button>
+                                <Button className="bn9098" style={{ border: "none" }} href='/Updatepro'>
+                                  <FaRegEdit className='adit1 bnnnn' />
+                                </Button>
 
-                                        </div>
+                              </div>
                             </Card>
-                            
+
                           </Col>
                         )
                       })
@@ -242,13 +330,10 @@ const Shopitem = () => {
                       <div className="p-2"></div>
                       <div className="p-2 ms-auto"></div>
                       <div className="p-2">
-                        <Pagination className='pag5'>
-                          {Array.from({ length: Math.ceil(filteredData.length / itemsPerPage) }, (_, index) => (
-                            <Pagination.Item className='pag4'
-                              key={index + 1}
-                              active={index + 1 === currentPage}
-                              onClick={() => setCurrentPage(index + 1)}
-                            >
+                        {/* Pagination */}
+                        <Pagination>
+                          {Array.from({ length: Math.ceil(filteredData.length / itemsPerPage) }).map((_, index) => (
+                            <Pagination.Item key={index} active={index + 1 === currentPage} onClick={() => paginate(index + 1)}>
                               {index + 1}
                             </Pagination.Item>
                           ))}

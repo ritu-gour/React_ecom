@@ -15,11 +15,11 @@ import Accordion from 'react-bootstrap/Accordion';
 import { MdOutlineThumbUp } from "react-icons/md";
 import { FaArrowUp } from "react-icons/fa";
 import { FaUserCircle } from "react-icons/fa";
-import { FaPlus ,FaMinus} from "react-icons/fa6";
+import { FaPlus, FaMinus } from "react-icons/fa6";
 import { MdOutlineStar, MdOutlineStarBorderPurple500 } from "react-icons/md";
 import './Recommandation.css'
 const Recommandation = () => {
-    
+
     const [value, setValue] = React.useState(70);
     const [value1, setValue1] = React.useState(27);
     const [value2, setValue2] = React.useState(3);
@@ -285,7 +285,7 @@ const Recommandation = () => {
                                                                 <h5 className='text-center'>{value.price}</h5>
                                                                 <p className='text-center mb-5' style={{ fontSize: "30px" }}>ventes</p>
                                                                 <Card.Body>
-                                                                    <Stack direction="horizontal" gap={3}>
+                                                                    <Stack direction="horizontal" gap={3} className='productb'>
                                                                         <div>
                                                                             <p>Product</p>
                                                                         </div>
@@ -325,16 +325,24 @@ const Recommandation = () => {
                                         <Col sm={6} >
                                             <Card className='grap4'>
                                                 <p style={{ color: "#084442", fontSize: "18px" }} className='text-center'>Taux de conversion</p>
-                                                <p className='text-center'> Proportion d’achats par rapport au nombre de visiteurs uniques ayant parcouru la boutique.</p>
-
+                                                <p className='text-center mb-5'> Proportion d’achats par rapport au nombre de visiteurs uniques ayant parcouru la boutique.</p>
+                                                <div className='semi10'>
+                                                    <div className="semi-donut margin semi9">
+                                                        <span className='parc90'> 3% </span>
+                                                    </div>
+                                                </div>
                                             </Card>
 
                                         </Col>
                                         <Col sm={6}>
                                             <Card className='grap4'>
                                                 <p style={{ color: "#084442", fontSize: "18px" }} className='text-center'>Taux d’abandon panier</p>
-                                                <p className='text-center'>Proportion de visiteurs qui mettent des articles dans leur panier mais ne commandent pas.</p>
-                                                <br></br>
+                                                <p className='text-center mb-5'>Proportion de visiteurs qui mettent des articles dans leur panier mais ne commandent pas.</p>
+                                                <div className='semi10'>
+                                                    <div className="semi-donut margin semi11">
+                                                        <span className='parc90'> 50% </span>
+                                                    </div>
+                                                </div>
 
                                             </Card>
                                         </Col>
@@ -342,6 +350,15 @@ const Recommandation = () => {
 
                                     </Row>
                                     <Card className='grap4'>
+                                    <p style={{ color: "#084442", fontSize: "18px" }} className='text-center'>Taux d’achats répétés</p>
+                                            <p className='text-center mb-5'>Proportion de clients qui repassent commande.</p>
+                                        <div className='semi10 mb-4'>
+                                           
+
+                                            <div className="semi-donut margin semi12">
+                                                <span className='parc90'> 50% </span>
+                                            </div>
+                                        </div>
                                         <Accordion defaultActiveKey="0">
                                             <Accordion.Item eventKey="0" className='accord5'>
                                                 <Accordion.Header className='accord5b'><MdOutlineThumbUp className='mdout' /> <b className='nosconsiel'>Nos conseils pour diminuer le nombre de retours d’articles</b> </Accordion.Header>
@@ -419,7 +436,7 @@ const Recommandation = () => {
                                         >Sondage satisfaction
                                         </p>
                                         <p>Note globale</p>
-                                        <Stack direction="horizontal" >
+                                        <Stack direction="horizontal" className='start87'>
                                             <div className="p-"><MdOutlineStar className='star5' /></div>
                                             <div className="p-"><MdOutlineStar className='star5' /></div>
                                             <div className="p-"><MdOutlineStar className='star5' /></div>
@@ -429,7 +446,7 @@ const Recommandation = () => {
                                             </div>
                                         </Stack>
 
-                                        <Stack direction="horizontal" >
+                                        <Stack direction="horizontal" className='start87'>
                                             <div className="p-"><MdOutlineStar className='star5' /></div>
                                             <div className="p-"><MdOutlineStar className='star5' /></div>
                                             <div className="p-"><MdOutlineStar className='star5' /></div>
@@ -438,7 +455,7 @@ const Recommandation = () => {
                                             <div className="p-2"> <span className="poll-bar-graph age7" style={{ margin: "8px 0px 0px 0px" }} data-amount="2" data-total="3"></span>
                                             </div>
                                         </Stack>
-                                        <Stack direction="horizontal" >
+                                        <Stack direction="horizontal" className='start87'>
                                             <div className="p-"><MdOutlineStar className='star5' /></div>
                                             <div className="p-"><MdOutlineStar className='star5' /></div>
                                             <div className="p-"><MdOutlineStar className='star5' /></div>
@@ -447,7 +464,7 @@ const Recommandation = () => {
                                             <div className="p-2"> <span className="poll-bar-graph age8" style={{ margin: "8px 0px 0px 0px" }} data-amount="2" data-total="3"></span>
                                             </div>
                                         </Stack>
-                                        <Stack direction="horizontal" >
+                                        <Stack direction="horizontal" className='start87'>
                                             <div className="p-"><MdOutlineStar className='star5' /></div>
                                             <div className="p-"><MdOutlineStarBorderPurple500 className='star5' /></div>
                                             <div className="p-"><MdOutlineStarBorderPurple500 className='star5' /></div>
@@ -479,17 +496,17 @@ const Recommandation = () => {
                                         <p>Analyse des questionnaires satisfaction</p>
                                         <Row>
                                             <Col sm={6}>
-                                                <p style={{fontWeight:"600"}} >Points forts : </p>
+                                                <p style={{ fontWeight: "600" }} >Points forts : </p>
                                                 <p> <FaPlus /> Emballage soigné</p>
                                                 <p> <FaPlus /> Emballage soigné</p>
                                                 <p> <FaPlus /> Emballage soigné</p>
                                             </Col>
                                             <Col sm={6}>
-                                            <p style={{fontWeight:"600"}}>Motifs principaux de plaintes : </p>
+                                                <p style={{ fontWeight: "600" }}>Motifs principaux de plaintes : </p>
                                                 <p> <FaMinus /> Produits non conformes</p>
                                                 <p> <FaMinus /> Produits non conformes</p>
                                                 <p> <FaMinus /> Produits non conformes</p>
-                                             
+
                                             </Col>
                                         </Row>
                                     </Card>

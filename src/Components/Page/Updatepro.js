@@ -4,10 +4,14 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import './Update.css'
 import Footer from '../Footer'
+
 const Updatepro = () => {
   return (
     <div>
       <div className="new-wrapper" >
+
+
+
         <div className="showcase3 ">
 
           <img src="./Component2.png" alt="Picture" />
@@ -19,6 +23,7 @@ const Updatepro = () => {
           </div>
         </div>
         <Container>
+      
           <div >
             <Row >
               <Col sm={2}>

@@ -1,0 +1,74 @@
+.My_account {
+    font-size: 50px;
+    color: #084442;
+    font-weight: 700;
+    margin: 160px 0px 0px 0px;
+
+}
+
+.btnsco {
+    margin: 130px 0px 0px 1px;
+
+}
+
+.luuser {
+    font-size: 35px;
+    color: #084442;
+}
+
+.p908 {
+    margin: 50px 0px 0px 30px;
+}
+
+.lusers {
+    margin: -50px 0px 0px 0px;
+}
+
+.lusers1 {
+
+    margin: -50px 0px -50px 0px;
+}
+
+.btnsco1 {
+    margin: 100px 0px 0px 1px;
+
+}
+
+.p9088 {
+    margin: 0px 0px 0px 30px;
+}
+.bn987ato{
+    float:right !important;
+    margin-left: auto;
+}
+
+@media (max-width: 480px) {
+
+    .My_account {
+        font-size: 40px;
+        color: #084442;
+        font-weight: 700;
+        margin: 100px 0px 0px 0px !important; 
+    }
+    .p908,.p9088 {
+        margin: 0px 0px 0px 0px !important;
+    }
+    .lusers,.lusers1  {
+        margin: 0px 0px 0px 0px !important;
+    }
+    .bn987ato{
+       
+        margin: 0px !important;
+    }
+    .btnsco,.btnsco1 {
+        margin: 40px 0px 0px 0px;
+        /* padding: 0px !important; */
+    }
+    svg.adit1.bnnnn.btnsco {
+        margin: -60px 0px 0px -20px!important;
+       
+       
+    }
+}
+
+/* @media (max-width: 768px) {} */

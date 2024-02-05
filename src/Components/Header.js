@@ -36,6 +36,14 @@ const Head = () => {
                         <NavLink to="/dashboard" style={{ fontSize: "17px" }}>Dashboard</NavLink><span className="icon" > <i class="fa fa-bars" style={{ fontSize: "20px" }}>
                         </i></span>
                         <NavLink to="/InscriptionComme" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}> Inscription Comme</NavLink>
+                        <NavLink to="/My_account" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Mon Compte</NavLink>
+
+                        <NavLink to="/Offer" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>  Offer </NavLink>
+
+                        <NavLink to="/Settings" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>  Settings</NavLink>
+
+                        <NavLink to="/Register" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>S’inscrire </NavLink>
+
 
                         <NavLink to="/welcome" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Welcome</NavLink>
                         <NavLink to="/MerchantRegistration" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Merchant Registration</NavLink>

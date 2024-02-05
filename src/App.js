@@ -2,7 +2,7 @@
 import './App.css';
 // import Footer from './Components/Home/Bottom1';
 import Info_inscription_commerçants from './Components/Home/Info_inscription_commerçants';
-import Infulur from './Components/Home/Infulur'
+
 import Header from './Components/Header';
 import { Routes, Route } from "react-router-dom";
 import InscriptionComme from './Components/InscriptionComme/InscriptionComme';
@@ -24,6 +24,11 @@ import Sales from './Components/Page/Sales';
 import Recommendations from './Components/Page/Recommendations'
 import Tradedata from './Components/Page/Tradedata';
 import Recommandation from './Components/Page/Recommandation'
+import Testingtable from './Components/Page/Testingtable'
+import My_account from './Components/Page/My_account'
+import Offer from './Components/Page/Offer'
+import Settings from './Components/Page/Settings'
+import Register from './Components/Page/Register'
 
 function App() {
   return (
@@ -45,14 +50,18 @@ function App() {
         <Route path='/Shopitem' element={<Shopitem />} />
         <Route path='/Dashboard' element={<Dashboard />} />
         <Route path='/Storeprofile' element={<Storeprofile />} />
-        <Route path='/Infulur' element={<Infulur />} />
+       
         <Route path='/Updatepro' element={<Updatepro />} />
         <Route path='/Add_an_item' element={<Add_an_item />} />
         <Route path='/Sales' element={<Sales />} />
         <Route path='/Recommendations' element={<Recommendations />} />
         <Route path='/Tradedata' element={<Tradedata />} />
         <Route path='/Recommandation' element={<Recommandation />} />
-       
+       <Route path='/Testingtable' element={<Testingtable />} />
+       <Route path='/My_account' element={<My_account />} />
+       <Route path='/Offer' element={<Offer />} />
+       <Route path='/Settings' element={<Settings />} />
+       <Route path='/Register' element={<Register />} />
         {/* <Route Path='/Demotest' element={<Demotest />} /> */}
 
 

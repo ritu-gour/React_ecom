@@ -154,3 +154,62 @@ padding: 12px 30px 12px 30px !important;
 .pasexv{
     font-size: 20px !important;
 }
+
+@media (max-width: 480px) {
+.counter1 {
+ height: 70px;
+  width: 70px;
+  padding:25px 1px 1px 1px;
+  border-radius: 100px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 0px 0px -30px 130px;
+}
+.counter2 {
+  height: 70px;
+   width: 70px;
+   padding:25px 1px 1px 1px;
+   border-radius: 100px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   margin: -40px 0px 0px 0px;
+ }
+ .card {
+  width: 100% !important;
+}
+
+
+.CircularProgressbar {
+  width: 100%;
+  padding: 10px 10px 10px 10px !important;
+  vertical-align: middle;
+}
+.col-sm-4 {
+  flex: 0 0 auto;
+  width: 100% !important;
+}
+
+.col-sm-3 {
+  flex: 0 0 auto;
+  width: 100% !important;
+}
+}
+@media (max-width: 768px) {
+
+.mbnvc.bnpro.row {
+  display: flex !important;
+}
+.vbbcard2.card {
+  width: 100% !important;
+}
+
+.col-sm-4 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.col-sm-3 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+
+}

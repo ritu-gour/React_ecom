@@ -1,0 +1,164 @@
+.maathenaback{
+    height: 300px;
+    object-fit: cover;
+}
+.maathenabackb{
+    padding: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+    border-radius: 0px;
+    margin: 0px 0px 30px 0px;
+}
+.maathenabackbn{
+    padding: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+    border-radius: 0px;
+    margin: 0px 0px 30px 0px;
+}
+.bn987atob{
+    margin-left: auto !important;  
+}
+.Abonnement{
+   align-items: end !important;
+}
+.checkmark{
+    color: #B9E6C9;
+    font-size: 30px;
+    margin: -90px 0px 0px 0px;
+}
+.checkmark1{
+    color: #084442;
+    font-size: 23px;
+    font-weight: 600;
+    
+}
+.checkmark2{
+    color: #414141;
+    /* font-size: 17px; */
+    padding: 0px 90px 0px 0px;
+   
+}
+.CHANGEROFFRE{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #084442 !important;
+    padding: 12px 30px 12px 30px;
+    border: none !important;
+    border-radius: 0px;
+}
+.CHANGEROFFRE:hover{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #FFC309 !important;
+    padding: 12px 30px 12px 30px;
+    border: none !important;
+    border-radius: 0px;
+   
+}
+.CHANGEROFFRE1{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #084442 !important;
+    padding: 12px 30px 12px 30px;
+    border: none !important;
+    border-radius: 0px;
+}
+.CHANGEROFFRE1:hover{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #FFC309 !important;
+    padding: 12px 30px 12px 30px;
+    border: none !important;
+    border-radius: 0px;
+   
+}
+.cliquez{
+    color: #084442;
+   
+}
+.tab45908{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 270px;
+}
+.tabcard{
+    background-color: #B9E6C9;
+    border: none;
+    border-radius: 0px;
+    padding: 30px;
+    margin: 30px 0px 0px 0px;
+}
+
+.form-check-input:checked {
+    background-color:  #B9E6C9;
+    border-color:  #B9E6C9;
+}
+.marlefth1{
+    margin-left: 60px;
+}
+.marlefth{
+    margin-left: 20px;
+}
+@media (max-width: 480px) {
+    .griddis1.hstack.gap-3 {
+        display: flex !important;
+    }
+    .bn987atob {
+        margin: -100px 50px 0px 0px !important;
+       
+    }
+        h2.chiffre.text-end {
+            text-align: start !important;
+           
+        }
+        
+        p.Abonnement.text-end {
+            margin: 0px !important;
+            text-align: start !important;
+        }
+        .checkmark {
+            color: #B9E6C9;
+            font-size: 30px;
+            margin: 0px 0px 0px 0px !important;
+        }
+
+        .checkmark2 {
+            color: #414141;
+            /* font-size: 17px; */
+            padding: 0px 0px 0px 0px !important;
+        }
+        .tab45908 {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            width: 100% !important;
+        }
+        .maathenabackbn {
+            padding: 20px;
+           
+        }
+}
+
+@media (max-width: 768px) {
+    .col-sm-9 {
+        flex: 0 0 auto;
+        width: 100% !important;
+    }
+    
+    .tab45908 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 100% !important;
+    }
+    .maathenabackbn {
+        padding: 20px;
+       
+    }
+}

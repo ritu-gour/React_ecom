@@ -69,8 +69,9 @@
 .age8 {
 
     --amount: 1.4;
-    --total:20;
+    --total: 20;
 }
+
 input.rang5.range-slider.range-slider--primary {
     border-radius: 0px !important;
     padding: 0px;
@@ -94,88 +95,330 @@ input[type=range].range-slider {
 .rang7 {
     box-shadow: rgba(100, 100, 111, 0) 0px 7px 29px 0px;
     background-color: transparent;
-    margin: 15px -40px 0px -20px ;
+    margin: 15px -40px 0px -20px;
 }
 
-.grap2{
+.grap2 {
     border: 0px;
-    border-radius: 0px ;
+    border-radius: 0px;
     padding: 30px;
     height: 340px;
     margin: 0px 0px 40px 0px;
 
 }
-.grap1{
+
+.grap1 {
     height: 340px;
     border: 0px;
-    border-radius: 0px ;
+    border-radius: 0px;
     padding: 30px 30px 50px 30px;
     margin: 0px 0px 40px 0px;
 
 }
-.grap4{
+
+.grap4 {
     /* height: 340px; */
     border: 0px;
-    border-radius: 0px ;
+    border-radius: 0px;
     padding: 30px 30px 50px 30px;
     margin: 0px 0px 40px 0px;
 
 }
 
-.number5{
+.number5 {
     border: 0px;
-    border-radius: 0px ;
+    border-radius: 0px;
     padding: 30px;
-   
+
     margin: 0px 0px 40px 0px;
 
 }
-.usert{
+
+.usert {
     margin-left: auto;
     margin-right: auto;
     display: block;
     font-size: 90px;
     color: #084442;
 }
-.numbb{
-font-size: 18px;
-margin: 20px 20px 0px 30px;
-color: #084442;
+
+.numbb {
+    font-size: 18px;
+    margin: 20px 20px 0px 30px;
+    color: #084442;
 }
-.uernum{
+
+.uernum {
     font-size: 25px;
     margin-top: -30px;
     color: #084442;
 
 }
-.encou{
+
+.encou {
     padding: 0px 80px 0px 10px;
 }
-.drop7{
+
+.drop7 {
     margin-left: auto;
     margin-right: auto;
-    display: block; 
+    display: block;
 }
-.faar{
+
+.faar {
     font-size: 30px;
     margin: 0px 0px 0px 0px;
     color: #B9E6C9;
 }
-.star5{
+
+.star5 {
     color: #FFC309;
     font-size: 23px;
 }
-.fauser{
-font-size: 30px;
-color: #B9E6C9;
+
+.fauser {
+    font-size: 30px;
+    color: #B9E6C9;
 }
-.fausers{
-padding: 0px 200px 0px 0px;
+
+.fausers {
+    padding: 0px 200px 0px 0px;
 }
-.grap40{
+
+.grap40 {
     border: 0px;
-    border-radius: 0px ;
+    border-radius: 0px;
     padding: 30px 30px 50px 30px;
-    margin: 0px 0px 40px 0px; 
-    background-color:  #B9E6C9;
+    margin: 0px 0px 40px 0px;
+    background-color: #B9E6C9;
+}
+
+
+
+.semi-donut {
+    --percentage: 0;
+    --fill: #ff0;
+    width: 300px;
+    height: 150px;
+    position: relative;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    overflow: hidden;
+    color: var(--fill);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    box-sizing: border-box;
+
+    &:after {
+        content: '';
+        width: 300px;
+        height: 300px;
+        border: 20px solid;
+        border-color: #B9E6C9 #B9E6C9 var(--fill) var(--fill);
+        position: absolute;
+        border-radius: 50%;
+        left: 0;
+        top: 0;
+        box-sizing: border-box;
+        transform: rotate(calc(1deg * (-45 + var(--percentage) * 1.8)));
+        animation: fillAnimation 1s ease-in;
+
+    }
+}
+
+.semi10 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.parc90 {
+    background-color: #084442;
+    color: white;
+    border-radius: 50px;
+    padding: 18px 0px 0px 0px;
+    height: 65px;
+    width: 65px;
+    text-align: center !important;
+
+}
+
+.semi9 {
+    --percentage: 3;
+    --fill: #084442;
+
+}
+
+.semi11 {
+    --percentage: 50;
+    --fill: #084442;
+
+}
+
+.semi12 {
+    --percentage: 50;
+    --fill: #084442;
+
+}
+
+@keyframes fillAnimation {
+    0% {
+        transform: rotate(-45deg);
+    }
+
+}
+
+@keyframes fillGraphAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+
+    .grap2 {
+        border: 0px;
+        border-radius: 0px;
+        padding: 30px 10px 30px 10px !important;
+        height: 340px;
+        margin: 0px 0px 40px 0px;
+    }
+
+    .age1 {
+
+        width: 920px !important;
+    }
+
+    .filter45 {
+        background-color: transparent;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .bnpro {
+        margin: 30px 0px 20px 0px;
+    }
+
+    .productb.hstack.gap-3 {
+        display: flex !important;
+    }
+
+    .encou {
+        padding: 0px 0px 0px 10px !important;
+        margin: -50px 0px 0px 0px !important;
+    }
+
+    .start87.hstack {
+        display: flex !important;
+    }
+
+    span.poll-bar-graph.age6 {
+        width: 170px !important;
+    }
+
+    .fausers {
+        padding: 0px 0px 0px 0px !important;
+    }
+
+    .modifiee {
+        background-color: #FFC309;
+        border: none;
+        border-radius: 0px;
+        padding: 50px;
+        margin: 0px 0px 0px 0px !important;
+    }
+
+
+
+}
+
+
+
+@media (max-width: 768px) {
+    .col-sm-6 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    
+    .card-group>.card {
+        flex: 1 0 0%;
+        margin-bottom: 0;
+        margin: 5px;
+    }
+    
+    
+    .grap2 {
+        border: 0px;
+        border-radius: 0px;
+        padding: 30px 10px 30px 10px !important;
+        height: 340px;
+        margin: 0px 0px 40px 0px;
+    }
+
+    .age1 {
+
+        width: 920px !important;
+    }
+
+    .filter45 {
+        background-color: transparent;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .bnpro {
+        margin: 30px 0px 20px 0px;
+    }
+
+    .productb.hstack.gap-3 {
+        display: flex !important;
+    }
+
+    .encou {
+        padding: 0px 0px 0px 10px !important;
+        margin: -50px 0px 0px 0px !important;
+    }
+
+    .start87.hstack {
+        display: flex !important;
+    }
+
+    span.poll-bar-graph.age6 {
+        width: 170px !important;
+    }
+
+    .fausers {
+        padding: 0px 0px 0px 0px !important;
+    }
+
+    .modifiee {
+        background-color: #FFC309;
+        border: none;
+        border-radius: 0px;
+        padding: 50px;
+        margin: 0px 0px 0px 0px !important;
+    }
+
+
+
 }
