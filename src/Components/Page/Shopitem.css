@@ -123,6 +123,13 @@ svg.adit1.bnnnn{
    
 }
 @media (max-width: 480px) {
+    .reacherch56 {
+        border: none !important;
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        padding: 7px;
+        width: 293px !important;
+    }
     .row56.hstack.gap-3 {
         display: grid;
     }

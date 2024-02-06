@@ -1,0 +1,62 @@
+.contactimg{
+    width: 370px !important;
+    margin: 40px 0px 0px 0px;
+    
+}
+.VOIR_LESPRODUITSbn8{
+    float:right !important;
+    background-color: #FFC309 !important;
+    border: none ;
+    border-radius: 0px ;
+    color: black;
+}
+.VOIR_LESPRODUITSbn8:hover{
+    float:right !important;
+    background-color:#B9E6C9 !important; 
+    border: none ;
+    border-radius: 0px ;
+    color: black;
+}
+.VOIR_LESPRODUITSbn89{
+    float:right !important;
+    background-color: transparent !important;
+    border: 2px dashed #FFC309;
+    border-radius: 0px ;
+    color: rgb(255, 255, 255);
+    /* padding: 10px 30px 10px 30px; */
+    
+}
+.VOIR_LESPRODUITSbn89:hover{
+    float:right !important;
+    background-color:#B9E6C9 !important; 
+    border: 2px dashed #B9E6C9;
+    
+    border-radius: 0px ;
+    color: black;
+    /* padding: 10px 30px 10px 30px; */
+    
+}
+.form9180{
+    background-color:#084442 ;
+    padding: 50px 30px 90px 30px;
+    margin: 0px 0px 0px 0px ;
+}
+.contactcon{
+    margin: 100px 0px 0px 0px ;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+@media (max-width: 480px) {
+.contactimg {
+    width: 90%;
+    margin: 40px 0px 0px 0px;
+}
+}

@@ -36,6 +36,24 @@ const Head = () => {
                         <NavLink to="/dashboard" style={{ fontSize: "17px" }}>Dashboard</NavLink><span className="icon" > <i class="fa fa-bars" style={{ fontSize: "20px" }}>
                         </i></span>
                         <NavLink to="/InscriptionComme" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}> Inscription Comme</NavLink>
+                        <NavLink to="/Search_result" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Résultat Recherche</NavLink>
+                        <NavLink to="/Recherches" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Recherches</NavLink>
+                        <NavLink to="/Buy_product" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Buy_product</NavLink>
+                        <NavLink to="/CGU" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>CGU</NavLink>
+                        <NavLink to="/Legal_Notice" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Mentions légales</NavLink>
+                        <NavLink to="/Privacy_policy" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Politique de <br></br>confidentitalité</NavLink>
+                        <NavLink to='/Contact'  style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}> Contact</NavLink>
+                        {/* <NavLink to='/ItemStore'  style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Articles Boutique</NavLink> */}
+                        {/* <NavLink to='/ItemStore'  style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Articles Boutique</NavLink> */}
+                        {/* <NavLink to='/ItemStore'  style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Articles Boutique</NavLink> */}
+                                 
+                                 
+
+
+                       
+                        <NavLink to='/ItemStore' style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Articles Boutique</NavLink>
+
+
                         <NavLink to="/My_account" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Mon Compte</NavLink>
 
                         <NavLink to="/Offer" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>  Offer </NavLink>

@@ -18,13 +18,16 @@ th.th78 {
     padding: 10px;
     border-radius: 30px;
   }
+  .connector{
+    margin-inline-end: auto !important;
+  }
   table {
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
     border: 1px solid #ddd;
   }
-  
+ 
   .bbrow{
     background-color: #084442;
     color: white !important;

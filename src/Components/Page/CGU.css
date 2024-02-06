@@ -1,0 +1,30 @@
+.cgu1 {
+    font-size: 35px;
+    color: #084442;
+    font-weight: 600;
+    text-align: center;
+    padding: 100px 0px 100px 0px;
+}
+.cgu2{
+    font-size: 25px;
+    color: #084442;
+    margin: 40px 0px 10px 0px ;
+    font-weight: 500;
+}
+.cgu3{
+    margin: 0px 60px 0px 60px;
+}
+
+@media (max-width: 480px) {
+    .cgu1 {
+        font-size: 30px !important;
+        color: #084442;
+        font-weight: 600;
+        text-align: center;
+        padding: 100px 0px 80px 0px !important;
+    }
+    .cgu3 {
+        margin: 0px 0px 0px 0px !important;
+    } 
+    
+}

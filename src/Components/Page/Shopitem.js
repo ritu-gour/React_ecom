@@ -204,7 +204,7 @@ const Shopitem = () => {
 
 
                   <Stack direction="horizontal" gap={3} className='row56'>
-                    <div className="p-2"> <Button className='CONNECTERMONSITE1'>+ AJOUTER UN ARTICLE</Button>   <Button onClick={onButtonClick} className='CONNECTERMONSITE'>TELECHARGER UN FICHIER CSV</Button></div>
+                    <div className="p-2"> <Button className='CONNECTERMONSITE1' href='/Add_an_item'>+ AJOUTER UN ARTICLE</Button>   <Button onClick={onButtonClick} className='CONNECTERMONSITE'>TELECHARGER UN FICHIER CSV</Button></div>
 
                     <div className="p-2 ms-auto">
                       <div >
@@ -212,7 +212,7 @@ const Shopitem = () => {
                         <Row>
                           <Col> <Form.Control
                             type="text"
-                            placeholder="Search by title"
+                            placeholder="Recherche"
                             value={searchTerm}
                             onChange={(e) => setSearchTerm(e.target.value)} className='reacherch56'
                           /></Col>
@@ -229,38 +229,6 @@ const Shopitem = () => {
                       <div className="p-2"><h3 className='Description mb-4'>Mes articles</h3></div>
                       <div className="p-2 ms-auto"></div>
                       <div className="p-2">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                        {/* <Form.Group controlId="filterDropdown">
-                          <Form.Label> Filtrer par</Form.Label>
-                          <Form.Control
-                            as="select"
-                            value={filterValue}
-                            onChange={(e) => setFilterValue(e.target.value)}
-                          >
-                            <option value="">All Categories</option>
-                            {uniqueCategories.map((category, index) => (
-                              <option key={index} value={category}>
-                                {category}
-                              </option>
-                            ))}
-                          </Form.Control>
-                        </Form.Group> */}
                         
                         <Dropdown>
                           <Dropdown.Toggle variant="" id="dropdown-basic" className='filter45'>

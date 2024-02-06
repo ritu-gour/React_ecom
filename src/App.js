@@ -29,7 +29,18 @@ import My_account from './Components/Page/My_account'
 import Offer from './Components/Page/Offer'
 import Settings from './Components/Page/Settings'
 import Register from './Components/Page/Register'
-
+import ItemStore from './Components/Page/ItemStore';
+import Search_result from './Components/Page/Search_result';
+import Recherches from './Components/Recherche/Recherches';
+import Buy_product from './Components/Page/Buy_product';
+import CGU from './Components/Page/CGU';
+import Legal_Notice from './Components/Page/Legal_Notice';
+import Privacy_policy from './Components/Page/Privacy_policy';
+import Contact from './Components/Page/Contact';
+// import Contact from './Components/Page/Contact';
+// import Contact from './Components/Page/Contact';
+// import Contact from './Components/Page/Contact';
+// import Contact from './Components/Page/Contact';
 function App() {
   return (
     <div className="App">
@@ -50,20 +61,30 @@ function App() {
         <Route path='/Shopitem' element={<Shopitem />} />
         <Route path='/Dashboard' element={<Dashboard />} />
         <Route path='/Storeprofile' element={<Storeprofile />} />
-       
+
         <Route path='/Updatepro' element={<Updatepro />} />
         <Route path='/Add_an_item' element={<Add_an_item />} />
         <Route path='/Sales' element={<Sales />} />
         <Route path='/Recommendations' element={<Recommendations />} />
         <Route path='/Tradedata' element={<Tradedata />} />
         <Route path='/Recommandation' element={<Recommandation />} />
-       <Route path='/Testingtable' element={<Testingtable />} />
-       <Route path='/My_account' element={<My_account />} />
-       <Route path='/Offer' element={<Offer />} />
-       <Route path='/Settings' element={<Settings />} />
-       <Route path='/Register' element={<Register />} />
-        {/* <Route Path='/Demotest' element={<Demotest />} /> */}
-
+        <Route path='/Testingtable' element={<Testingtable />} />
+        <Route path='/My_account' element={<My_account />} />
+        <Route path='/Offer' element={<Offer />} />
+        <Route path='/Settings' element={<Settings />} />
+        <Route path='/Register' element={<Register />} />
+        <Route path='/ItemStore' element={<ItemStore />} />
+        <Route path='/Search_result' element={<Search_result />} />
+        <Route path='/Recherches' element={<Recherches />} />
+        <Route path='/Buy_product' element={<Buy_product />} />
+        <Route path='/CGU' element={<CGU />} />
+        <Route path='/Legal_Notice' element={<Legal_Notice />} />
+        <Route path='/Privacy_policy' element={<Privacy_policy />} />
+        <Route path='/Contact' element={<Contact />} />
+        {/* <Route path='/Contact' element={<Contact />} /> */}
+        {/* <Route path='/Contact' element={<Contact />} /> */}
+        {/* <Route path='/Contact' element={<Contact />} /> */}
+        {/* <Route path='/Contact' element={<Contact />} /> */}
 
       </Routes>
       {/* <Footer /> */}

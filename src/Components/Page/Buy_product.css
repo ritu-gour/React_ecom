@@ -1,0 +1,43 @@
+.leftimgeh{
+    margin: 0px 0px 0px 60px;
+}
+.RECHERCHER117{
+
+    background-color: #084442 !important;
+    border: none !important;
+    border-radius: 0px !important;
+    padding: 9px 20px 9px 20px !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.RECHERCHER117:hover{
+    background-color: #FFC309 !important;
+    border: none !important;
+    border-radius: 0px !important;
+    padding: 9px 20px 9px 20px !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+@media (max-width: 480px) {
+
+.leftimgeh {
+    margin: 0px 0px 0px 100px !important;
+}
+/* .leftimgeh89{
+    display: flex !important;
+} */
+.mbnvc.my-5.row09.leftimgeh89.row {
+    display: grid !important;
+}
+.vectimngf.hstack.gap-3 {
+    display: flex !important;
+}}
+
+
+@media (max-width: 768px) {
+    .mbnvc.my-5.row09.leftimgeh89.row {
+        display: flex;
+    }
+}

@@ -267,7 +267,8 @@ const Recherche = () => {
                     </div>
                     </Col>
                  </Row>
-                </div>
+                </div><br></br><br></br>
+                <br></br>
                 <Footer />
             </div>
         </div>

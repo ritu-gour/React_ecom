@@ -288,6 +288,7 @@ const Sales = () => {
                                                 <tr className='head56'>
 
                                                     <th className='th78'> Commande n°</th>
+                                                  <th className='th78'>Photos</th>
                                                     <th className='th78'>Produit</th>
                                                     <th className='th78'>Client</th>
                                                     <th className='th78'>Date</th>
@@ -305,7 +306,9 @@ const Sales = () => {
 
                                                         <tr key={value.id}>
                                                             <td>#20462</td>
-                                                            <td  > <img height={30} width={30} src='./img/product.jpeg' style={{ borderRadius: "50px" }} /> Chapeau</td>
+                                                            <td  > <img height={30} width={30} src='./img/product.jpeg' style={{ borderRadius: 
+                                                                "50px" }} /> </td>
+                                                            <td>Chapeau</td>
                                                             <td>Emilie Rat</td>
                                                             <td >13/05/2023</td>
                                                             <td>{value.price}</td>
