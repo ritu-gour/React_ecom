@@ -38,7 +38,7 @@ const Carte = () => {
                     </div>
                 </div>
 
-                <div style={{ margin: "90px 120px 0px 200px" }}>
+                <div className="itemcart">
                     <Container>
                         <Row>
 

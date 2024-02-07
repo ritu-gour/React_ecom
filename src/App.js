@@ -37,9 +37,9 @@ import CGU from './Components/Page/CGU';
 import Legal_Notice from './Components/Page/Legal_Notice';
 import Privacy_policy from './Components/Page/Privacy_policy';
 import Contact from './Components/Page/Contact';
-// import Contact from './Components/Page/Contact';
-// import Contact from './Components/Page/Contact';
-// import Contact from './Components/Page/Contact';
+import Item_Detail from './Components/Page/Item_Detail';
+import Login_client from './Components/Page/Login_client';
+import Client_login from './Components/Page/Client_login';
 // import Contact from './Components/Page/Contact';
 function App() {
   return (
@@ -81,9 +81,9 @@ function App() {
         <Route path='/Legal_Notice' element={<Legal_Notice />} />
         <Route path='/Privacy_policy' element={<Privacy_policy />} />
         <Route path='/Contact' element={<Contact />} />
-        {/* <Route path='/Contact' element={<Contact />} /> */}
-        {/* <Route path='/Contact' element={<Contact />} /> */}
-        {/* <Route path='/Contact' element={<Contact />} /> */}
+        <Route path='/Item_Detail' element={<Item_Detail />} />
+        <Route path='/Login_client' element={<Login_client />} />
+        <Route path='/Client_login' element={<Client_login />} />
         {/* <Route path='/Contact' element={<Contact />} /> */}
 
       </Routes>

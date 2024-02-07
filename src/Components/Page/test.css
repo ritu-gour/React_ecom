@@ -1,17 +1,313 @@
-.invalid-feedback,
-.empty-feedback {
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap'); */
+
+
+:root {
+
+  /* --- Colors --- */
+
+  --light-blue-100: 199, 84%, 55%;
+  /* #2bb0ed */
+  --light-blue-500: 202, 83%, 41%;
+  /* #127fbf */
+  --light-blue-900: 204, 96%, 27%;
+  /* #035388 */
+
+  --blue-100: 210, 22%, 49%;
+  /* #627d98 */
+  --blue-500: 209, 34%, 30%;
+  /* #334e68 */
+  --blue-900: 209, 61%, 16%;
+  /* #102a43 */
+
+  --gray-100: 210, 36%, 96%;
+  /* #f0f4F8 */
+  --gray-300: 212, 33%, 89%;
+  /* #d9e2ec */
+  --gray-500: 210, 31%, 80%;
+  /* #bcccdc */
+  --gray-700: 211, 27%, 70%;
+  /* #9fb3c8 */
+  --gray-900: 209, 23%, 60%;
+  /* #829ab1 */
+
+  --white: 0, 0%, 100%;
+  /* #ffffff */
+
+  /* --- Typography --- */
+
+  --font-family-sans-serif: "Montserrat", sans-serif;
+
+  /* --- Layout --- */
+
+  --space-multiplier: 0.8;
+
+  --content-max-width: 140rem;
+
+  --grid-spacer-width: 1.5rem;
+  --grid-column-count: 12;
+
+}
+
+
+.step67 {
+
+  margin: -30px 10px 0px 0px;
+
+}
+
+:focus-visible {
+  outline: hsl(var(--light-blue-900)) auto 1px;
+  outline-offset: 0;
+}
+
+.FaCheckCircleb {
+  font-size: 40px;
+  z-index: 1000;
+}
+
+
+.visually-hidden {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  white-space: nowrap;
+  /* 1 */
+  width: 1px;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.flex-auto {
+  flex: 1 1 auto;
+}
+
+.flex-initial {
+  flex: 0 1 auto;
+}
+
+.flex-none {
+  flex: none;
+}
+
+
+@media only screen and (min-width: 640px) {
+  .sm\:d-none {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Component: Progress Form
+   ========================================================================== */
+
+.progress-form {
+  background-color: #EAEAEA;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px 0 rgb(0, 0, 0, 10%),
+    0 1px 2px -1px rgb(0, 0, 0, 10%);
+}
+
+/* Tabs
+   ========================================================================== */
+
+.progress-form__tabs {
+  column-gap: 0;
+  margin: 0px 40px 0px 40px;
+}
+
+@media only screen and (min-width: 640px) {
+  .progress-form__tabs {
+    column-gap: 2rem;
+  }
+}
+
+.progress-form__tabs-item {
+  --button-background-color: transparent;
+  --button-border-width: 5px;
+  --button-border-style: solid;
+  --button-border-color: hsl(var(--gray-300));
+  --button-border: var(--button-border-width) var(--button-border-style) var(--button-border-color);
+  --button-border-radius: 0;
+  --button-height: 1.4;
+  --button-text-align: left;
+  --button-text-color: hsl(var(--blue-900));
+  --button-text-font-size: 1.4rem;
+  --button-text-letter-spacing: 0.025em;
+  --button-text-shadow: none;
+
+  background-color: var(--button-background-color);
+  border: 0;
+  border-top: var(--button-border);
+  border-radius: var(--button-border-radius);
+  color: var(--button-text-color);
   display: none;
+  font-size: var(--button-text-font-size);
+  letter-spacing: var(--button-text-letter-spacing);
+  line-height: var(--button-height);
+  position: relative;
+  text-align: var(--button-text-align);
+  text-shadow: var(--button-text-shadow);
+  transition: color 0.2s ease-in-out;
+  white-space: normal;
+
 }
 
-.was-validated :placeholder-shown:invalid ~ .empty-feedback {
+.progress-form__tabs-item:active {
+  transform: none;
+}
+
+.progress-form__tabs-item:hover,
+.progress-form__tabs-item:focus {
+  background-color: inherit;
+  color: inherit;
+}
+
+.progress-form__tabs-item::before {
+  background-color: hsl(var(--light-blue-500));
+  content: "";
+  height: 5px;
+  left: 0;
+  position: absolute;
+  top: -5px;
+  transition: width 0.2s ease-in-out;
+  width: 0;
+}
+
+.progress-form__tabs-item>.step {
+  color: hsl(var(--blue-100));
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: color 0.2s ease-in-out;
+}
+
+.facheck {
+  font-size: 40px;
+  margin: -45px 0px 0px -40px;
+}
+
+@media only screen and (min-width: 640px) {
+  .progress-form__tabs-item {
+    display: block;
+  }
+}
+
+/* --- Current Step --- */
+
+.progress-form__tabs-item[aria-selected="true"] {
   display: block;
 }
 
-.was-validated :not(:placeholder-shown):invalid ~ .invalid-feedback {
-  display: block;
+.progress-form__tabs-item[aria-selected="true"]::before {
+  width: 50%;
 }
 
-.is-invalid,
-.was-validated :invalid {
-  border-color: #dc3545;
+.progress-form__tabs-item[aria-selected="true"]>.step {
+  color: hsl(var(--light-blue-500));
+}
+
+/* --- Disabled Step --- */
+
+@media only screen and (min-width: 640px) {
+  .progress-form__tabs-item[aria-disabled="true"] {
+    --button-background-color: transparent;
+    --button-text-color: hsl(var(--blue-100));
+
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
+    margin: 0px 0px 0px 40px !important;
+  }
+}
+
+/* --- Completed Step --- */
+
+.progress-form__tabs-item[data-complete="true"]::before {
+  width: 100%;
+}
+
+.progress-form__tabs-item[data-complete="true"]>.step {
+  color: hsl(var(--light-blue-500));
+}
+
+
+
+.form-control67 {
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.185) 0px 0px 0px 1px;
+}
+
+.lablle88 {
+  font-size: 19px;
+  margin: 10px 0px 10px 0px;
+
+}
+
+.SUIVANT {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100%;
+  padding: 13px 0px 13px 0px;
+  background-color: #084442 !important;
+  color: #ffffff !important;
+  border: 0px;
+  border-radius: 0px;
+
+}
+
+.form__error-text {
+  color: red;
+}
+
+.iconou {
+  margin: 0px 0px 0px 20px;
+}
+
+.iconou3 {
+  margin: 0px 0px 0px 30px;
+}
+
+.faedity {
+  font-size: 40px;
+  background-color: #B9E6C9;
+  padding: 10px;
+  color: white;
+  border-radius: 30px;
+}
+
+.adresh {
+  font-size: 25px;
+  color: #084442 !important;
+}
+
+.adresh2 {
+  font-size: 18px;
+  color: #084442 !important;
+}
+
+.cardform876 {
+  border: none;
+  border-radius: 0px;
+  background-color: #aaaaaa;
+  padding: 50px;
+}
+.backbtun{
+ 
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100%;
+  padding: 13px 0px 13px 0px;
+  background-color: #08444200 !important;
+  color: #000000 !important;
+  border: 0px;
+  font-size: 23px;
+  border-radius: 0px;
 }

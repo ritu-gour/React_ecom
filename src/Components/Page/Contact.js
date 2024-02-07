@@ -201,7 +201,7 @@ const Contact = () => {
                                                     onBlur={validateOne} />
                                                 <div style={{color:"red"}} >{nameVal} </div>
                                             </Form.Group>
-
+                                            
                                         </Col>
                                         <Col sm={6}>
                                             <Form.Group className="mb-4" controlId="formBasicEmail">

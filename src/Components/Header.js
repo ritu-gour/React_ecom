@@ -43,8 +43,8 @@ const Head = () => {
                         <NavLink to="/Legal_Notice" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Mentions légales</NavLink>
                         <NavLink to="/Privacy_policy" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Politique de <br></br>confidentitalité</NavLink>
                         <NavLink to='/Contact'  style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}> Contact</NavLink>
-                        {/* <NavLink to='/ItemStore'  style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Articles Boutique</NavLink> */}
-                        {/* <NavLink to='/ItemStore'  style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Articles Boutique</NavLink> */}
+                        <NavLink to='/Item_Detail'  style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Item_Detail</NavLink>
+                        <NavLink to='/Login_client'  style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Se connecter <br></br>client</NavLink>
                         {/* <NavLink to='/ItemStore'  style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Articles Boutique</NavLink> */}
                                  
                                  

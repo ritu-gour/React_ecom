@@ -28,7 +28,9 @@
     left: 0;
     z-index:-1
   }
-  
+  .itemcart{
+    margin: 90px 120px 100px 120px;
+}
   .showcase h2 {
     margin-top: 280px;
     font-size: 3em;
