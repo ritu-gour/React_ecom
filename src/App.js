@@ -40,7 +40,14 @@ import Contact from './Components/Page/Contact';
 import Item_Detail from './Components/Page/Item_Detail';
 import Login_client from './Components/Page/Login_client';
 import Client_login from './Components/Page/Client_login';
-// import Contact from './Components/Page/Contact';
+import Checkout from './Components/Page/Checkout';
+import Faqs from './Components/Page/Faqs';
+import Blog from './Components/Page/Blog';
+import Delivery_n_returns from './Components/Page/Delivery_n_returns';
+import About from './Components/Page/About';
+import Summary from './Components/Page/Summary';
+import Orders from './Components/Page/Orders';
+import Orders_client from './Components/Page/Orders_client';
 function App() {
   return (
     <div className="App">
@@ -84,7 +91,16 @@ function App() {
         <Route path='/Item_Detail' element={<Item_Detail />} />
         <Route path='/Login_client' element={<Login_client />} />
         <Route path='/Client_login' element={<Client_login />} />
-        {/* <Route path='/Contact' element={<Contact />} /> */}
+        <Route path='/Checkout' element={<Checkout />} />
+        <Route path='/Faqs' element={<Faqs />} />
+        <Route path='/Blog' element={<Blog />} />
+        <Route path='/Delivery_n_returns' element={<Delivery_n_returns />} />
+        <Route path='/About' element={<About />} />
+        <Route path='/Summary' element={<Summary />} />
+        <Route path='/Orders' element={<Orders />} />
+        <Route path='/Orders_client' element={<Orders_client />} />
+        
+        
 
       </Routes>
       {/* <Footer /> */}

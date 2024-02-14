@@ -5,6 +5,7 @@ import Form from 'react-bootstrap/Form';
 import './Update.css'
 import Footer from '../Footer'
 
+
 const Updatepro = () => {
   return (
     <div>
@@ -23,7 +24,7 @@ const Updatepro = () => {
           </div>
         </div>
         <Container>
-      
+    
           <div >
             <Row >
               <Col sm={2}>

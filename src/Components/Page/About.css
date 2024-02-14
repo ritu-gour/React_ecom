@@ -1,0 +1,226 @@
+.cardblog89 {
+    background-color: #084442;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    margin: 40px 0px 50px 0px !important;
+}
+
+.DECODECOUVRIREQUIPE{
+
+    padding: 12px 30px 12px 30px;
+    background-color: #FFC309 !important;
+    border: none !important;
+    border-radius: 0px !important;
+    color: black !important;
+    margin: 30px 0px 0px 0px;
+}
+
+.DECODECOUVRIREQUIPE:hover{
+
+    padding: 12px 30px 12px 30px;
+    background-color: #FFC309 !important;
+    border: none !important;
+    border-radius: 0px !important;
+    color: black !important;
+    margin: 30px 0px 0px 0px;
+}
+
+.pagingh{
+    padding: 10px 70px 0px 0px;
+}
+
+.row90m {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+}
+
+.methu {
+    width: 140px;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.blog7887 {
+    width: 500px;
+    height: 400px;
+}
+
+.con7421 {
+    margin-top: 90px !important;
+}
+
+.pour {
+    margin: 140px 0px 0px 0px;
+
+}
+
+.pour1 {
+    margin: 0px 80px 0px 0px;
+}
+
+.blog123 {
+    width: 550px;
+    height: 810px;
+    margin: -59px 0px 0px 0px;
+    z-index: -1 !important;
+
+}
+
+.blog1238 {
+    background-color: #084442;
+    color: white;
+    border: none;
+    border-radius: 0px;
+}
+
+.zInde {
+    margin: 20px 0px 0px 100px;
+}
+
+.packages {
+    font-size: 40px;
+    color: #FFC309;
+    align-items: center;
+    text-align: center;
+}
+
+.packagess {
+    border-right: 2px solid;
+    padding: 20px 0px 90px 0px;
+    margin: 10px 20px 0px 0px;
+    font-size: 40px;
+    color: #FFC309;
+    align-items: center;
+    text-align: center;
+    float: center;
+}
+
+.packagesss {
+    border-right: 2px solid;
+    padding: 20px 0px 90px 0px;
+    margin: 10px 20px 0px 0px;
+    font-size: 40px;
+    color: #ffc10900;
+    align-items: center;
+    text-align: center;
+    float: center;
+}
+.bloag19019{
+    background-color: #B9E6C9;
+    border: none;
+    border-radius: 0px;
+    padding: 30px;
+    margin: 80px 0px 80px 0px ;
+}
+.nb{
+    float: right;
+}
+
+@media (max-width: 480px) {
+    .pagingh {
+        padding: 10px 0px 20px 0px;
+    }
+    .backblogh {
+        background-position: center !important;
+    }
+    .methu {
+        width: 140px;
+        border-radius: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 40px !important;
+    }
+    .pour {
+        margin: 10px 0px 0px 0px !important;
+    }
+    .pour1 {
+        margin: 0px 0px 40px 0px !important;
+    }
+    .blog7887 {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .blog123 {
+        width: 100% !important;
+        height: 100% !important;
+        margin: -59px 0px 0px 0px;
+        z-index: -1 !important;
+    }
+    .pack38.hstack.gap-3 {
+        display: flex !important;
+    }
+    .packages {
+        
+        margin-top: -30px !important;
+    }
+    button.CONTACTEZ-NOUS.nb.btn.btn-primary {
+       
+        float: inline-start !important;
+    }
+   
+    
+    
+}
+
+
+@media (max-width: 768px) {
+    .pagingh {
+        padding: 10px 0px 20px 0px;
+    }
+    .backblogh {
+        background-position: center !important;
+    }
+    .col-sm-4 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .col90.col-sm-4 {
+        width: 30% ;
+    }
+    
+    
+    .methu {
+        width: 140px;
+        border-radius: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 40px !important;
+    }
+    .pour {
+        margin: 10px 0px 0px 0px !important;
+    }
+    .pour1 {
+        margin: 0px 0px 40px 0px !important;
+    }
+    .blog7887 {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .blog123 {
+        width: 100% !important;
+        height: 100% !important;
+        margin: -59px 0px 0px 0px;
+        z-index: -1 !important;
+    }
+    .pack38.hstack.gap-3 {
+        display: flex !important;
+    }
+    .packages {
+        
+        margin-top: -30px !important;
+    }
+    button.CONTACTEZ-NOUS.nb.btn.btn-primary {
+       
+        float: inline-start !important;
+    }
+   
+    
+    
+}
+

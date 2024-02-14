@@ -36,7 +36,17 @@ const Head = () => {
                         <NavLink to="/dashboard" style={{ fontSize: "17px" }}>Dashboard</NavLink><span className="icon" > <i class="fa fa-bars" style={{ fontSize: "20px" }}>
                         </i></span>
                         <NavLink to="/InscriptionComme" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}> Inscription Comme</NavLink>
+
+
+
                         <NavLink to="/Search_result" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Résultat Recherche</NavLink>
+                        <NavLink to="/Blog" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Blog</NavLink>
+                        <NavLink to="/Delivery_n_returns" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Delivery and returns</NavLink>
+                        <NavLink to="/Summary" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Mon compte</NavLink>
+                        <NavLink to="/Order" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Order</NavLink>
+                        <NavLink to="/Orders_client" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Orders_client</NavLink>
+                        
+                        
                         <NavLink to="/Recherches" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Recherches</NavLink>
                         <NavLink to="/Buy_product" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Buy_product</NavLink>
                         <NavLink to="/CGU" style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>CGU</NavLink>
@@ -45,7 +55,7 @@ const Head = () => {
                         <NavLink to='/Contact'  style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}> Contact</NavLink>
                         <NavLink to='/Item_Detail'  style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Item_Detail</NavLink>
                         <NavLink to='/Login_client'  style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Se connecter <br></br>client</NavLink>
-                        {/* <NavLink to='/ItemStore'  style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>Articles Boutique</NavLink> */}
+                        <NavLink to='/Faqs'  style={{ fontSize: "17px", margin: "-20px 0px 0px 0px" }}>FAQs</NavLink>
                                  
                                  
 

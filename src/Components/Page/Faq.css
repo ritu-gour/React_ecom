@@ -1,0 +1,277 @@
+.accordion {
+    display: flex;
+    flex-direction: column;
+    font-family: "Sora", sans-serif;
+    max-width: 991px;
+    min-width: 320px;
+    margin: 50px auto;
+    padding: 0 50px;
+}
+.accordion h1 {
+    font-size: 32px;
+    text-align: center;
+    color: #084442;
+}
+.accordion-item {
+    margin-top: 16px;
+    border: 1px solid #fcfcfc;
+    border-radius: 6px;
+    background: #ffffff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.accordion-item .accordion-item-title {
+    color: #084442 !important;
+    position: relative;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    font-size: 17px;
+    cursor: pointer;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 14px 20px;
+    box-sizing: border-box;
+    align-items: center;
+}
+.accordion-item .accordion-item-desc {
+    display: none;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #444;
+    border-top: 1px dashed #dddddd00;
+    padding: 10px 20px 20px;
+    box-sizing: border-box;
+}
+.accordion-item input[type="checkbox"] {
+    position: absolute;
+    height: 0;
+    width: 0;
+    opacity: 0;
+}
+.accordion-item input[type="checkbox"]:checked ~ .accordion-item-desc {
+    display: block;
+}
+.accordion-item
+    input[type="checkbox"]:checked
+    ~ .accordion-item-title
+    .icon:after {
+    content: "-";
+    font-size: 24px;
+}
+.accordion-item input[type="checkbox"] ~ .accordion-item-title .icon:after {
+    content: "+";
+    font-size: 24px;
+}
+.accordion-item:first-child {
+    margin-top: 0;
+}
+.accordion-item .icon {
+    margin-left: 14px;
+  
+   
+}
+.CONTACTEZ-NOUS{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 12px 30px 12px 30px;
+    background-color: #084442 !important;
+    border: none !important;
+    border-radius: 0px !important;
+}
+.CONTACTEZ-NOUS:hover{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 12px 30px 12px 30px;
+    background-color: #FFC309 !important;
+    border: none !important;
+    border-radius: 0px !important;
+}
+.Clients{
+    font-size: 20px;
+    text-align: center;
+    color: #084442;
+    margin: 90px 0px 0px 0px;
+}
+.Clientsss{
+    font-size: 40px;
+    text-align: center;
+    color: #084442;
+    margin: 70px 0px 0px 0px;
+}
+.Clientss{
+    font-size: 17px;
+    text-align: center;
+    color: #084442;
+    margin: 20px 0px 60px 0px;
+}
+.Lireplus1{
+font-size: 30px;
+color:  #084442;
+}
+.cardblog{
+    margin: 30px 0px 0px 0px !important;
+}
+.cardblog{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 0px;
+    border-radius: 0px;
+}
+.cardblog9{
+    height:360px;
+}
+.lireplusv{
+    color: #084442 !important;
+   
+}
+.lirepimg{
+    height: 310px;
+    width: 300px;
+    border-radius: 0px;
+    object-fit: cover;
+}
+.Lireplus{
+    background-color: transparent !important;
+    border: 1px solid  #084442 !important;
+    border-radius: 0px !important;
+    color:  #084442 !important;
+    font-size: 20px !important;
+    padding: 10px 30px 10px 30px !important;
+    margin: 30px 0px 20px 0px  !important;
+
+}
+.Lireplus:hover{
+    background-color: #084442  !important;
+    border: 1px solid  #084442 !important;
+    border-radius: 0px !important;
+    color:  #ffffff !important;
+    font-size: 20px !important;
+    padding: 10px 30px 10px 30px !important;
+    margin: 30px 0px 20px 0px  !important;
+
+}
+.blog8{
+    width: 400px;
+    margin: 0px 0px 0px 90px;
+    /* z-index: 1000 !important; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.blog89{
+    width: 400px;
+    margin: 0px 0px 0px -170px;
+    /* z-index: 1000 !important; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.Clientsb{
+    font-size: 30px;
+    color: #084442;
+   
+}
+.z-in{
+    margin: 90px 0px 0px 0px;
+}
+.carddevel{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   z-index: -1 !important;
+    border: 0px;
+    background-color: white;
+    border-radius: 0px; 
+    padding: 50px 70px 80px 70px;
+    margin: 60px 90px 0px 0px;
+}
+.blog98{
+    margin: -280px 0px 0px 0px;
+}
+@media (max-width: 480px) {
+    .cardblog9 {
+        height: 100% !important;
+    }
+    .lirepimg {
+        height: 100%  !important;
+        width: 100%  !important;
+        border-radius: 0px;
+        object-fit: cover;
+    }
+    
+    .blog8{
+        width:100% !important;
+        margin: 0px 0px 0px 0px !important;
+        /* z-index: 1000 !important; */
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+    }
+    .blog89{
+        width: 100% !important;
+        margin: 0px 0px 0px 0px !important;
+        /* z-index: 1000 !important; */
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+    }
+    .Clientsb{
+        font-size: 30px;
+        color: #084442;
+       
+    }
+    .z-in{
+        margin: 10px 0px 0px 0px !important;
+    }
+    .carddevel{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+       z-index: -1 !important;
+        border: 0px;
+        background-color: white;
+        border-radius: 0px; 
+        padding: 50px 10px 80px 10px;
+        margin: 60px 0px 30px 0px !important;
+    }
+    .blog98{
+        margin: -180px 0px 0px 0px !important;
+    }
+   
+}
+@media screen and (max-width: 767px) {
+    .accordion {
+        padding: 0 16px;
+    }
+    .accordion h1 {
+        font-size: 22px;
+    }
+    .blog8{
+        width:100% !important;
+        margin: 0px 0px 0px 0px !important;
+        /* z-index: 1000 !important; */
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+    }
+    .blog89{
+        width: 100% !important;
+        margin: 0px 0px 0px 10px ;
+        /* z-index: 1000 !important; */
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+    }
+    .Clientsb{
+        font-size: 30px;
+        color: #084442;
+       
+    }
+    .z-in{
+        margin: 10px 0px 0px 0px !important;
+    }
+    .carddevel{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+       z-index: -1 !important;
+        border: 0px;
+        background-color: white;
+        border-radius: 0px; 
+        padding: 50px 10px 80px 10px;
+        margin: 60px 0px 30px 0px !important;
+    }
+    .blog98{
+        margin: -180px 0px 0px 0px !important;
+    }
+}
